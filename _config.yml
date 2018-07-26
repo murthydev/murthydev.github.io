@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            'Pramod Murthy'
 tagline:          'Machine Learning, Deep Learning Researcher.'
 description:      'Researcher'
-url:              https://pramodmurthy.com
+url:              https://www.pramodmurthy.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -17,7 +17,7 @@ google_analytics: UA-45894387-2
   #name:           'Pramod Murthy'
   #url:            https://twitter.com/fongandrewc
 
-paginate:         1
+paginate:         0
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
@@ -25,18 +25,16 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-jupyter-notebook
 
 # Custom vars
 version:            3.4.1
 sidebar_home_link:  true
-sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
   repo:             https://github.com/murthy-dev
-gems:
-  - jekyll-jupyter-notebook
-  - jekyll-gist
 
 exclude:          ['*.ipynb']
