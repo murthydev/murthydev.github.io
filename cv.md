@@ -1,0 +1,13 @@
+---
+layout: cv
+title:  Résumé
+sidebar_link: true
+---
+<!-- <p class="message">
+	CV  shall be provided on request
+
+</p>
+ -->
+  <iframe src="https://drive.google.com/file/d/1Q3S-E6ykFbn19eV8fM4QucSJxbIHz5wv/preview" width="150%" height="1110" scrolling="no" frameBorder="0"></iframe>
+
+<!--<iframe src="https://docs.google.com/document/d/1jZ5gHIweoSlE63p_gBys1Iluc20OcuS0gJ6I5mj3z-U/pub?embedded=true" width="800" height="1800"  scrolling="no" frameBorder="0"></iframe>-->
