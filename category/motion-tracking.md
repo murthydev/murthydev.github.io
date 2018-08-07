@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Human Motion Tracking
+title: Human Motion Capture
 category: motion-tracking
 ---
 

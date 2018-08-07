@@ -488,8 +488,8 @@ pre {
 */
 body {
   color: rgba(255, 255, 255, 0.75);
-  background-color: #FFFFFF;
-  background-image: linear-gradient(to bottom, white, #ededed);
+  background-color: #4080B0;
+  background-image: linear-gradient(to bottom, #5392c1, #366d96);
   display: flex;
   flex-direction: column;
   min-width: 100vw;
@@ -568,7 +568,7 @@ body {
 
   /* Undo mobile CSS */
   #sidebar, .home #sidebar {
-    width: 24rem;
+    width: 20rem;
     text-align: left; }
     #sidebar > *:last-child, .home #sidebar > *:last-child {
       margin-bottom: 0; }
@@ -751,7 +751,7 @@ button.disqus-load {
     border-radius: 300px;
     border-width: 1px;
     width: 60%;
-    max-width: 24rem;
+    max-width: 20rem;
     background: #fff;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); }
     .pagination > a:hover {

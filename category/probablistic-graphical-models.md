@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Probablistic Graphical Model
+title: Graphical Models
 category: pgm
 ---
