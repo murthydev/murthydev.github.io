@@ -488,8 +488,8 @@ pre {
 */
 body {
   color: rgba(255, 255, 255, 0.75);
-  background-color: #6F8FBF;
-  background-image: linear-gradient(to bottom, #88a2ca, #567cb4);
+  background-color: #FFFFFF;
+  background-image: linear-gradient(to bottom, white, #ededed);
   display: flex;
   flex-direction: column;
   min-width: 100vw;
