@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Generative Advarsarial Nets
+title: Advarsarial Nets
 ---
 
 

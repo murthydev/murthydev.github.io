@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Graphical Models
+title: Bayesian Inference
 category: pgm
 ---

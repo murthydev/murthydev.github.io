@@ -1,14 +1,15 @@
 <div id="sidebar">
   <header>
-    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+    <{% if page.layout == "index" %}h6{% else %}div{% endif %} class="site-title">
       <a href="{{ site.baseurl }}/">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
         {{ site.title }}
       </a>
-    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
-    <p class="lead">{{ site.description }}<img src='{{ site.baseurl }}/images/me.jpg' width='40%' height='40%'/></p>
+    </{% if page.layout == "index" %}h6{% else %}div{% endif %}>
+    <p class="lead"><img src='{{ site.baseurl }}/images/me.jpg' width='75%' height='75%'/>{{ site.description }}</p>
+    <br><br><br>
   </header> 
   {% include sidebar-nav-links.html %}
     {% comment %}
