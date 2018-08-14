@@ -26,7 +26,8 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-jupyter-notebook
-
+  - jekyll-toc
+  
 # Custom vars
 version:            3.4.1
 sidebar_home_link:  true

@@ -2,8 +2,10 @@
 layout: category
 title: Embedded Vision
 category: ev
-sidebar_link: true
 ---
+
+* TOC
+{:toc}
 
 
 # EMDL

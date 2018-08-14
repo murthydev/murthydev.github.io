@@ -8,7 +8,6 @@ title: Advarsarial Nets
  Generative Adversarial Nets (GANs)
 ----------------------------------------------------------------------------------------------------------------------
 
-
 <!-- <br>
 <iframe width="860" height="480" src="https://drive.google.com/file/d/0Bzp2ibgZw-AydklzNE1iYUt5RDg/view?usp=sharing" frameborder="0" allowfullscreen></iframe>
 <br>
@@ -29,6 +28,8 @@ Slide adaptation / credits:
 
 
 Important GAN publications
+* TOC
+{:toc}
 
 ### Survey on Unsupervised / Semi-supervised training of GANS
 
