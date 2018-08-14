@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Embedded DL
+title: Embedded Vision
 category: ev
 sidebar_link: true
 ---
