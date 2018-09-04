@@ -1,8 +1,8 @@
 --- 
  layout: post
- category: [blog,musings] 
- title:  COMPUTATIONAL POWER AND THE SOCIAL IMPACT OF ARTIFICIAL INTELLIGENCE
- tags: [computational impact, deep learning]
+ category: [musings] 
+ title:  Computational Power and Socail Impact of AI and Block Chain
+ tags: [computational impact, block-chain,deep learning]
 
 ---
 
