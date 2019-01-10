@@ -16,6 +16,7 @@ Important Deep Reinforcement Learning publications
 
 ### Course 
 - [David Silver course - Slides and Videos](http://goo.gl/vUiyjq)
+- [ICML Workshop](https://sites.google.com/view/icml17deeprl)
 
 ### Textbook 
 - [Reinforcement Learning:An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
