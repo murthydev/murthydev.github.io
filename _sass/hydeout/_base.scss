@@ -49,7 +49,7 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 80%;
   margin: 0 0 1rem;
   border-radius: 5px;
   height: auto; // Fix to keep max-width from squishing images with defined
@@ -58,7 +58,7 @@ img {
 
 table {
   margin-bottom: 1rem;
-  width: 100%;
+  width: 50%;
   font-size: 85%;
   border: 1px solid $border-color;
   border-collapse: collapse;

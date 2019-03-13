@@ -73,7 +73,7 @@
         Pramod Murthy
       </a>
     </div>
-    <p class="lead">Researcher</p>
+    <p class="lead">Researcher \n\n</p>
   </header> 
   <nav id="sidebar-nav-links">
   
@@ -345,26 +345,218 @@
 </div>
 
     <main class="container">
-      <header>
-  <h1 class="page-title"><label for="search-bar">Google Search</label></h1>
-</header>
-<div class="content">
-  <form action="https://google.com/search" class="search-form">
-  <div class="search-row">
-    <input id="search-bar" type="search" name="q" />
+      <div class="home">
 
-    
-    
-    
-    
-    
-    <input name="sitesearch" type="hidden"
-           value="localhost:4000" />
+  
 
-    <input type="submit" value="Search" />
-  </div>
-</form>
+  <h1 class="page-heading">Posts</h1>
+
+  <div id="search-searchbar"></div>
+
+  <div class="post-list" id="search-hits">
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Mar 13, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/musings/2019/03/13/Conservation-of-Energy.html">Conservation of Energy</a>
+        </h2>
+        <div class="post-snippet"><h1 id="conservation-of-energy">Conservation of Energy</h1>
+
 </div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Mar 11, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/pgm/2019/03/11/PruningTechniques.html">Pruning Techniques.</a>
+        </h2>
+        <div class="post-snippet"><h4 id="references">References:</h4>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Oct 10, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/pgm/2018/10/10/3ProbabilisticFamilies.html">Probabilistic Families</a>
+        </h2>
+        <div class="post-snippet"><h4 id="references">References:</h4>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Aug 7, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/musings/2018/08/07/computation-impact.html">Computational Power and Socail Impact of AI and Block Chain</a>
+        </h2>
+        <div class="post-snippet"><h4 id="references">References:</h4>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Aug 7, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/blog/pgm/2018/08/07/bnn.html">Bayesian Neural Networks</a>
+        </h2>
+        <div class="post-snippet"><p>Bayesian Neural Networks uses Proabibilitic Model along with Neural Networks.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jul 30, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/blog/2018/07/30/Sample-Jupyter-Notebook.html">Sample-Jupyter-Notebook</a>
+        </h2>
+        <div class="post-snippet"><div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello World"</span><span class="p">)</span>
+</code></pre></div></div>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jul 25, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/blog/dl/2018/07/25/machinelearning.html">MachineLearning</a>
+        </h2>
+        <div class="post-snippet"><h3 id="intro">Intro</h3>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Nov 10, 2017</span>
+
+        <h2>
+          <a class="post-link" href="/blog/pgm/2017/11/10/probabilistic-graphical-model-intro.html">Probabilistic Graphical Model - Intro</a>
+        </h2>
+        <div class="post-snippet"><h3 id="intro">Intro</h3>
+
+</div>
+      </div>
+    
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+<base href="">
+
+<script>
+const search = instantsearch({
+  appId: 'AGHL6NOVVE',
+  apiKey: '516ff5f67126b88a5d6d0a7b1d0f213e',
+  indexName: 'blog'
+});
+
+const hitTemplate = function(hit) {
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+  let url = `${hit.url}#${hit.anchor}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="post-item">
+      <span class="post-meta">${date}</span>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
+      <div class="post-snippet">${content}</div>
+    </div>
+  `;
+}
+
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search into posts...',
+    poweredBy: true
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>
+
+<style>
+.ais-search-box {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.post-item {
+  margin-bottom: 30px;
+}
+.post-link .ais-Highlight {
+  color: #111;
+  font-style: normal;
+  text-decoration: underline;
+}
+.post-breadcrumbs {
+  color: #424242;
+  display: block;
+}
+.post-breadcrumb {
+  font-size: 18px;
+  color: #424242;
+}
+.post-breadcrumb .ais-Highlight {
+  font-weight: bold;
+  font-style: normal;
+}
+.post-snippet .ais-Highlight {
+  color: #2a7ae2;
+  font-style: normal;
+  font-weight: bold;
+}
+.post-snippet img {
+  display: none;
+}
+</style>
+
+
+
+
     </main>
 
     <!-- Optional footer content -->

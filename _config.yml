@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            'Pramod Murthy'
 tagline:          'Machine Learning, Deep Learning Researcher.'
-description:      'Researcher'
+description:      'Researcher \n\n'
 url:              https://www.pramodmurthy.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -23,10 +23,15 @@ paginate:         0
 
 plugins:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-jupyter-notebook
+  - jekyll-algolia
+  # - jekyll-paginate
+  #  - jekyll-gist
 
+algolia:
+  application_id: AGHL6NOVVE
+  index_name:     blog # You can replace that with whatever name you want
+  search_only_api_key: 516ff5f67126b88a5d6d0a7b1d0f213e
 
 # Custom vars
 version:            3.4.1
@@ -39,4 +44,3 @@ github:
   repo:             https://github.com/murthy-dev
 
 exclude:          ['*.ipynb']
-
