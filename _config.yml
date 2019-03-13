@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            'Pramod Murthy'
-tagline:          'Machine Learning, Deep Learning Researcher.'
-description:      'Researcher \n\n'
+tagline:          'Deep Learning, Computer Vision, Machine Learning Researcher'
+description:      'Researcher '
 url:              https://www.pramodmurthy.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -25,6 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-jupyter-notebook
   - jekyll-algolia
+  - jekyll-scholar
   # - jekyll-paginate
   #  - jekyll-gist
 
@@ -44,3 +45,7 @@ github:
   repo:             https://github.com/murthy-dev
 
 exclude:          ['*.ipynb']
+
+scholar:
+  style: apa
+  source:  _bibliography
