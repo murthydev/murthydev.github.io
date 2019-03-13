@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-13T11:06:36+01:00</updated><id>http://localhost:4000/</id><title type="html">Pramod Murthy</title><subtitle>Researcher</subtitle><entry><title type="html">Pruning Techniques.</title><link href="http://localhost:4000/pgm/2019/03/11/PruningTechniques.html" rel="alternate" type="text/html" title="Pruning Techniques." /><published>2019-03-11T00:00:00+01:00</published><updated>2019-03-11T00:00:00+01:00</updated><id>http://localhost:4000/pgm/2019/03/11/PruningTechniques</id><content type="html" xml:base="http://localhost:4000/pgm/2019/03/11/PruningTechniques.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-13T11:48:35+01:00</updated><id>http://localhost:4000/</id><title type="html">Pramod Murthy</title><subtitle>Researcher</subtitle><entry><title type="html">Conservation of Energy</title><link href="http://localhost:4000/musings/2019/03/13/Conservation-of-Energy.html" rel="alternate" type="text/html" title="Conservation of Energy" /><published>2019-03-13T00:00:00+01:00</published><updated>2019-03-13T00:00:00+01:00</updated><id>http://localhost:4000/musings/2019/03/13/Conservation-of-Energy</id><content type="html" xml:base="http://localhost:4000/musings/2019/03/13/Conservation-of-Energy.html">&lt;h1 id=&quot;conservation-of-energy&quot;&gt;Conservation of Energy&lt;/h1&gt;
+
+&lt;p&gt;The law of conservation of energy (applied in physics/chemistry) states as follows 
+‘’’
+the total energy of an isolated system remains constant; it is said to be conserved over time.[1] This law means that energy can neither be created nor destroyed; rather, it can only be transformed or transferred from one form to another 
+‘’’ [1]&lt;/p&gt;
+
+&lt;p&gt;Does it also apply to energy states in humans (isolated systems) ???&lt;/p&gt;
+
+&lt;p&gt;The total energy we spent on daily activites like engaging with phone, people and talking does transform your accumulated energy.
+Where do we gather energy in the first place. Do we get it from food, people or meditation. 
+Anything in the excess with be thrown out or discarded.
+Conentration is the key in gather energy by structured activities on a focused goal. 
+The lifestyle will help to make it congenial settings for your mind to get in meditative state. 
+Simplify the tasks, friends will mitigate the loss or leak of finite energy gathered everyday. 
+A sufficient energy in the body by means of lifestyle will lead to  have a by product as happiness.
+Now, this needs spending time with yourself to have really clear priorities for self !&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/a/what-is-conservation-of-energy&quot;&gt;What is conservation of energy&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="energy" /><summary type="html">Conservation of Energy</summary></entry><entry><title type="html">Pruning Techniques.</title><link href="http://localhost:4000/pgm/2019/03/11/PruningTechniques.html" rel="alternate" type="text/html" title="Pruning Techniques." /><published>2019-03-11T00:00:00+01:00</published><updated>2019-03-11T00:00:00+01:00</updated><id>http://localhost:4000/pgm/2019/03/11/PruningTechniques</id><content type="html" xml:base="http://localhost:4000/pgm/2019/03/11/PruningTechniques.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
 
 &lt;p&gt;[1] Skeletonization: A Technique for Trimming the Fat from a Network via Relevance Assessment.
 [2] A Simple Procedure for Pruning Back-Propagation Trained Neural Networks.
