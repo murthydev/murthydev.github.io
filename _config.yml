@@ -26,7 +26,8 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-jupyter-notebook
-  
+
+
 # Custom vars
 version:            3.4.1
 sidebar_home_link:  true
@@ -38,3 +39,4 @@ github:
   repo:             https://github.com/murthy-dev
 
 exclude:          ['*.ipynb']
+
