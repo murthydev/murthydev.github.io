@@ -15,4 +15,4 @@ sidebar_link: true
    In Computer Science In Cars Symposium(CSCS) (2017). Springer <br>
    [Paper](https://www.dfki.de/web/forschung/publikationen/renameFileForDownload?filename=Murthy_2017_ACM_CSCS_3D_Human_Pose_Spherical.pdf&file_id=uploads_3284)
 
-<!-- {% bibliography -f mine %} -->
+
