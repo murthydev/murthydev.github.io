@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications2
+title: Publications
 sidebar_link: true
 ---
 
