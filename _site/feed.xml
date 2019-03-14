@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-14T11:16:48+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Conservation of Energy</title><link href="http://localhost:4000/musings/2019/03/13/Conservation-of-Energy.html" rel="alternate" type="text/html" title="Conservation of Energy" /><published>2019-03-13T00:00:00+01:00</published><updated>2019-03-13T00:00:00+01:00</updated><id>http://localhost:4000/musings/2019/03/13/Conservation-of-Energy</id><content type="html" xml:base="http://localhost:4000/musings/2019/03/13/Conservation-of-Energy.html">&lt;h1 id=&quot;conservation-of-energy&quot;&gt;Conservation of Energy&lt;/h1&gt;
+
+&lt;p&gt;The law of conservation of energy (applied in physics/chemistry) states as follows 
+‘’’
+the total energy of an isolated system remains constant; it is said to be conserved over time.[1] This law means that energy can neither be created nor destroyed; rather, it can only be transformed or transferred from one form to another 
+‘’’ [1]&lt;/p&gt;
+
+&lt;p&gt;Does it also apply to energy states in humans (isolated systems) ???&lt;/p&gt;
+
+&lt;p&gt;The total energy we spent on daily activites like engaging with phone, people and talking does transform your accumulated energy.
+Where do we gather energy in the first place. Do we get it from food, people or meditation. 
+Anything in the excess with be thrown out or discarded.
+Concentration is the key in gather energy by structured activities on a focused goal. 
+The lifestyle will help to make it congenial settings for your mind to get in meditative state. 
+Simplify the tasks, friends will mitigate the loss or leak of finite energy gathered everyday. 
+A sufficient energy in the body by means of lifestyle will lead to  have a by product as happiness.
+Now, this needs spending time with yourself to have really clear priorities for self !&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/a/what-is-conservation-of-energy&quot;&gt;What is conservation of energy&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="energy" /><summary type="html">Conservation of Energy</summary></entry><entry><title type="html">Pruning Techniques.</title><link href="http://localhost:4000/pgm/2019/03/11/PruningTechniques.html" rel="alternate" type="text/html" title="Pruning Techniques." /><published>2019-03-11T00:00:00+01:00</published><updated>2019-03-11T00:00:00+01:00</updated><id>http://localhost:4000/pgm/2019/03/11/PruningTechniques</id><content type="html" xml:base="http://localhost:4000/pgm/2019/03/11/PruningTechniques.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
+
+&lt;p&gt;[1] Skeletonization: A Technique for Trimming the Fat from a Network via Relevance Assessment.
+[2] A Simple Procedure for Pruning Back-Propagation Trained Neural Networks.
+[3] Learning Sparse Neural Networks through L_0 Regularization.
+[4] Generalized Dropout.
+[5] Variational Dropout Sparsifies Deep Neural Networks.
+[6] ON THE IMPORTANCE OF SINGLE DIRECTIONS FOR GENERALIZATION
+[7] Ablation of a Robot’s Brain: Neural Networks Under a Knife
+How Important Is a Neuron?
+[8] SNIP: SINGLE-SHOT NETWORK PRUNING BASED ON CONNECTION SENSITIVITY
+[9] How Important Is a Neuron ?&lt;/p&gt;
+
+&lt;p&gt;This is an example citation of Brothman’s 1991 article.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;pgm&quot;]" /><category term="Embedded" /><summary type="html">References:</summary></entry><entry><title type="html">Probabilistic Families</title><link href="http://localhost:4000/pgm/2018/10/10/3ProbabilisticFamilies.html" rel="alternate" type="text/html" title="Probabilistic Families" /><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><id>http://localhost:4000/pgm/2018/10/10/3ProbabilisticFamilies</id><content type="html" xml:base="http://localhost:4000/pgm/2018/10/10/3ProbabilisticFamilies.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
+
+&lt;p&gt;Tale of Three Probabilistic Families&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1810.04261.pdf&quot;&gt;A Tale of Three Probabilistic Families: Discriminative, Descriptive
+and Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;pgm&quot;]" /><category term="Generative" /><category term="Discriminative" /><category term="Descriptive" /><category term="PGM" /><summary type="html">References:</summary></entry><entry><title type="html">Bayesian Neural Networks</title><link href="http://localhost:4000/blog/pgm/2018/08/07/bnn.html" rel="alternate" type="text/html" title="Bayesian Neural Networks" /><published>2018-08-07T00:00:00+02:00</published><updated>2018-08-07T00:00:00+02:00</updated><id>http://localhost:4000/blog/pgm/2018/08/07/bnn</id><content type="html" xml:base="http://localhost:4000/blog/pgm/2018/08/07/bnn.html">&lt;p&gt;Bayesian Neural Networks uses Proabibilitic Model along with Neural Networks.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Probabilistic Programming Libraries:
+    &lt;ul&gt;
+      &lt;li&gt;PyMC3, Edward, Stan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bayes Law &lt;br /&gt;
+  &lt;script type=&quot;math/tex&quot;&gt;Posterior = \frac {likelihood * prior}{Normalizing Constant }&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- IN N Dimensional simplex noise, the squared kernel summation radius $r^2$ is $\frac 1 2$
+for all values of N. This is because the edge length of the N-simplex $s = \sqrt {\frac {N} {N + 1}}$
+divides out of the N-simplex height $h = s \sqrt {\frac {N + 1} {2N}}$.
+The kerel summation radius $r$ is equal to the N-simplex height $h$.
+
+$$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
+ --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1506.02142&quot; title=&quot;Dropout&quot;&gt;Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1805.03901.pdf&quot; title=&quot;Loss - Calibrated&quot;&gt;Loss-Calibrated Approximate Inference in Bayesian Neural Networks&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1511.02680_&quot;&gt;Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1505.05424&quot;&gt;Weight Uncertainty in Neural Networks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1801.07710.pdf&quot;&gt;Study of Bayesian Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;pgm&quot;]" /><category term="Deep learning" /><category term="Bayesian Neural Networks" /><summary type="html">Bayesian Neural Networks uses Proabibilitic Model along with Neural Networks.</summary></entry><entry><title type="html">Computational Power and Socail Impact of AI and Block Chain</title><link href="http://localhost:4000/musings/2018/08/07/computation-impact.html" rel="alternate" type="text/html" title="Computational Power and Socail Impact of AI and Block Chain" /><published>2018-08-07T00:00:00+02:00</published><updated>2018-08-07T00:00:00+02:00</updated><id>http://localhost:4000/musings/2018/08/07/computation-impact</id><content type="html" xml:base="http://localhost:4000/musings/2018/08/07/computation-impact.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1803.08971.pdf&quot;&gt;COMPUTATIONAL POWER AND THE SOCIAL IMPACT OF ARTIFICIAL INTELLIGENCE&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="computational impact" /><category term="block-chain" /><category term="deep learning" /><summary type="html">References:</summary></entry><entry><title type="html">Sample-Jupyter-Notebook</title><link href="http://localhost:4000/blog/2018/07/30/Sample-Jupyter-Notebook.html" rel="alternate" type="text/html" title="Sample-Jupyter-Notebook" /><published>2018-07-30T00:00:00+02:00</published><updated>2018-07-30T00:00:00+02:00</updated><id>http://localhost:4000/blog/2018/07/30/Sample-Jupyter-Notebook</id><content type="html" xml:base="http://localhost:4000/blog/2018/07/30/Sample-Jupyter-Notebook.html">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello World
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">print(&quot;Hello World&quot;)</summary></entry><entry><title type="html">MachineLearning</title><link href="http://localhost:4000/blog/dl/2018/07/25/machinelearning.html" rel="alternate" type="text/html" title="MachineLearning" /><published>2018-07-25T00:00:00+02:00</published><updated>2018-07-25T00:00:00+02:00</updated><id>http://localhost:4000/blog/dl/2018/07/25/machinelearning</id><content type="html" xml:base="http://localhost:4000/blog/dl/2018/07/25/machinelearning.html">&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
+
+&lt;p&gt;Deep learning has attracted lot of traction from various researchers coming from different fields from manufacturing, biology, image processing and language processing.  In the series of the blog post, I would be discussing how Uncertainty is modelled in Deeplearning. Before we jump into what it means to model uncertainty, we should know why it is important to have Deep Neural Nets to further its own impact.&lt;/p&gt;
+
+&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
+
+&lt;p&gt;The recent techniques of Recurrent Neural Nets,  Convolution Nets , Dropout and Regularization often lead to networks predicting deterministic functions. Models such as Gaussian Processes, often define probability distributions over functions with a confidence bounds for the Machine Learning system to do inference. The autonomous car would need to decide if it needs to be really careful about making its own decision by using other probabilistic estimates. Deep learning models predictions for such scenarios often leadto potential questions if the network is throwing random guesses or making sensible predictions.&lt;/p&gt;
+
+&lt;p&gt;Uncertainty information is crucial for medical diagnosis practitioner to know, if a model is detecting lot of false positives but quantifies its high level uncertainty (low belief) for a given set of input data.&lt;/p&gt;
+
+&lt;p&gt;Here are the other scenarios where uncertainty information would be crucial :&lt;/p&gt;
+
+&lt;p&gt;Model Uncertainty :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Model Parameters : Large number of models paraters to choose from.&lt;/li&gt;
+  &lt;li&gt;Structure Uncertainty : Whats the right model structure ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Data  Uncertainty :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Data out of Distribution: Does the data show lies in the data distribution used for training the systems.&lt;/li&gt;
+  &lt;li&gt;Noisy Data Distribution: Does the data used contains an inherent in measurement  error leading to inappropriate learning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;applications-need-to-model-uncertainty&quot;&gt;Applications need to model Uncertainty&lt;/h3&gt;
+
+&lt;p&gt;High frequency trading systems take decision, as control is handed over the machine learning systems to take economic decisions. Can systems detect they are in uncertain state of making decisions (by evaluating asset risk ) and let humans take control over it. Similar is the need with Medical Diagnosis and Autonomous vechicles.&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mlg.eng.cam.ac.uk/yarin/thesis/thesis.pdf&quot;&gt;Gal, Y. (2016). Uncertainty in deep learning (Doctoral dissertation, PhD thesis, University of Cambridge).&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;dl&quot;]" /><category term="Machine Learning" /><category term="Linear Models" /><category term="Regression" /><summary type="html">Intro</summary></entry><entry><title type="html">Probabilistic Graphical Model - Intro</title><link href="http://localhost:4000/blog/pgm/2017/11/10/probabilistic-graphical-model-intro.html" rel="alternate" type="text/html" title="Probabilistic Graphical Model - Intro" /><published>2017-11-10T00:00:00+01:00</published><updated>2017-03-09T20:25:52+01:00</updated><id>http://localhost:4000/blog/pgm/2017/11/10/probabilistic-graphical-model-intro</id><content type="html" xml:base="http://localhost:4000/blog/pgm/2017/11/10/probabilistic-graphical-model-intro.html">&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
+
+&lt;p&gt;Deep learning has attracted lot of traction from various researchers coming from different fields from manufacturing, biology, image processing and language processing.  In the series of the blog post, I would be discussing how Uncertainty is modelled in Deeplearning. Before we jump into what it means to model uncertainty, we should know why it is important to have Deep Neural Nets to further its own impact.&lt;/p&gt;
+
+&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
+
+&lt;p&gt;The recent techniques of Recurrent Neural Nets,  Convolution Nets , Dropout and Regularization often lead to networks predicting deterministic functions. Models such as Gaussian Processes, often define probability distributions over functions with a confidence bounds for the Machine Learning system to do inference. The autonomous car would need to decide if it needs to be really careful about making its own decision by using other probabilistic estimates. Deep learning models predictions for such scenarios often leadto potential questions if the network is throwing random guesses or making sensible predictions.&lt;/p&gt;
+
+&lt;p&gt;Uncertainty information is crucial for medical diagnosis practitioner to know, if a model is detecting lot of false positives but quantifies its high level uncertainty (low belief) for a given set of input data.&lt;/p&gt;
+
+&lt;p&gt;Here are the other scenarios where uncertainty information would be crucial :&lt;/p&gt;
+
+&lt;p&gt;Model Uncertainty :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Model Parameters : Large number of models paraters to choose from.&lt;/li&gt;
+  &lt;li&gt;Structure Uncertainty : Whats the right model structure ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Data  Uncertainty :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Data out of Distribution: Does the data show lies in the data distribution used for training the systems.&lt;/li&gt;
+  &lt;li&gt;Noisy Data Distribution: Does the data used contains an inherent in measurement  error leading to inappropriate learning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;applications-need-to-model-uncertainty&quot;&gt;Applications need to model Uncertainty&lt;/h3&gt;
+
+&lt;p&gt;High frequency trading systems take decision, as control is handed over the machine learning systems to take economic decisions. Can systems detect they are in uncertain state of making decisions (by evaluating asset risk ) and let humans take control over it. Similar is the need with Medical Diagnosis and Autonomous vechicles.&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mlg.eng.cam.ac.uk/yarin/thesis/thesis.pdf&quot;&gt;Gal, Y. (2016). Uncertainty in deep learning (Doctoral dissertation, PhD thesis, University of Cambridge).&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;pgm&quot;]" /><summary type="html">Intro</summary></entry></feed>
