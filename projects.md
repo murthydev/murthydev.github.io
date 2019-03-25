@@ -22,6 +22,7 @@ order: 1
 </tr>
 <tr>
  <td><h3>Human Motion Capture</h3> <br>		
+ 	<video width="460" height="220" controls>  <source src="http://av.dfki.de/~murthy/demos/theta_demo.mp4" type="video/mp4"></video>
  	<iframe width="460" height="220" src="https://www.youtube.com/embed/1U0sjG-MH6g" frameborder="0" allowfullscreen></iframe>
 </td>
 </tr>
