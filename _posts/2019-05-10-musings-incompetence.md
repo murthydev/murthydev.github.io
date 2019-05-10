@@ -1,7 +1,7 @@
 --- 
  layout: post
  category: [musings] 
- title:  Incompetence is a state not permenance 
+ title:  Incompetence is a state not permanence 
  tags: [musings]
 ---
 
