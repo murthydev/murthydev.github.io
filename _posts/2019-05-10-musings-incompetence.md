@@ -8,7 +8,7 @@
 In a given limited time, we always wonder how can we excel in different areas at the same time. 
 
 - How can I learn good writing skills ? 
-- How do learn to play musical instrument ? 
+- How do I learn to play a musical instrument ? 
 - How can I improve managing time and be more efficient.
 
 These questions often keeps popping up to distract the present work at hand. 
