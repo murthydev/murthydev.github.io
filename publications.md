@@ -8,7 +8,7 @@ sidebar_link: true
 -  __Learning 3D Joint Constraints from Vision based Motion Capture Datasets.__ <br>
    **Murthy, Pramod**, Butt, H., Hiremath, S., Koshhal, A., & Stricker, D. <br>
    In _IPSJ Transactions on Computer Vision and Applications (MVA2019)._ <br>
-   [ [Oral Accepted](https://ipsjcva.springeropen.com/articles/10.1186/s41074-019-0057-z)]
+   (Oral Presentation) [ [Paper](https://ipsjcva.springeropen.com/articles/10.1186/s41074-019-0057-z)]
 -  __Fully Automatic Multi-person Human Motion Capture for VR Applications.__ <br>
    Elhayek, Ahmed, Kovalenko, Onorina, **Murthy, Pramod.**, Malik, J., & Stricker, D. <br>
    In _International Conference on Virtual Reality and Augmented Reality (2018). (pp. 28–47). Springer._ <br>
