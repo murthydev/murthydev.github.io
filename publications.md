@@ -4,7 +4,12 @@ title: Publications
 sidebar_link: true
 ---
 
-
+-  __Intelligent Sensor Fusion with Online Distributed MIMU Calibration for Wearable Motion Capture.__ <br>
+   Hammad Butt, Manthan Pancholi, Mathias Musahl, Pramod Murthy, Maria Alejandra Sanchez Marin, Didier Stricker. <br>
+   [ Fusion 2019 ](http://fusion2019.org/), 22nd International Conference on Information Fusion,Ottawa, Canada, 2019. 
+-  __Inertial Motion Capture Using Adaptive Sensor Fusion and Joint Angle Drift Correction__<br>
+   Hammad Butt, Manthan Pancholi, Mathias Musahl, Pramod Murthy, Maria Alejandra Sanchez Marin, Didier Stricker. <br>
+   [ Fusion 2019 ](http://fusion2019.org/), 22nd International Conference on Information Fusion,Ottawa, Canada, 2019.
 -  __Learning 3D Joint Constraints from Vision based Motion Capture Datasets.__ <br>
    **Murthy, Pramod**, Butt, H., Hiremath, S., Koshhal, A., & Stricker, D. <br>
    In _IPSJ Transactions on Computer Vision and Applications (MVA2019)._ <br>
