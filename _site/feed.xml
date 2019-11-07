@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://www.pramodmurthy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pramodmurthy.com/" rel="alternate" type="text/html" /><updated>2019-09-24T16:01:01+02:00</updated><id>https://www.pramodmurthy.com/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Incompetence is a state not permanence</title><link href="https://www.pramodmurthy.com/musings/2019/05/10/musings-incompetence.html" rel="alternate" type="text/html" title="Incompetence is a state not permanence" /><published>2019-05-10T00:00:00+02:00</published><updated>2019-05-10T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/musings/2019/05/10/musings-incompetence</id><content type="html" xml:base="https://www.pramodmurthy.com/musings/2019/05/10/musings-incompetence.html">&lt;p&gt;In a given limited time, we always wonder how can we excel in different areas at the same time.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://www.pramodmurthy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pramodmurthy.com/" rel="alternate" type="text/html" /><updated>2019-11-07T20:18:20+01:00</updated><id>https://www.pramodmurthy.com/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Reading and Reviewing</title><link href="https://www.pramodmurthy.com/musings/2019/10/01/reading-reviewing.html" rel="alternate" type="text/html" title="Reading and Reviewing" /><published>2019-10-01T00:00:00+02:00</published><updated>2019-10-01T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/musings/2019/10/01/reading-reviewing</id><content type="html" xml:base="https://www.pramodmurthy.com/musings/2019/10/01/reading-reviewing.html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No tale is so good that it can’t be spoiled in the telling.&lt;/li&gt;
+  &lt;li&gt;writing seemeth to me .. not much better than the noise or
+sound which musicians make while they are tuning their instrument.
+__ Francis Bacon- The Advancement of learning. __&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="musings" /><summary type="html">Introduction</summary></entry><entry><title type="html">Spectral Norm Generalization</title><link href="https://www.pramodmurthy.com/dl/2019/10/01/spectral-norm-generalization.html" rel="alternate" type="text/html" title="Spectral Norm Generalization" /><published>2019-10-01T00:00:00+02:00</published><updated>2019-10-01T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/dl/2019/10/01/spectral-norm-generalization</id><content type="html" xml:base="https://www.pramodmurthy.com/dl/2019/10/01/spectral-norm-generalization.html">&lt;h1 id=&quot;spectral-norm-regularization-for-improving-the-generalizability-of-deep-learning&quot;&gt;Spectral Norm Regularization for Improving the Generalizability of Deep learning.&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maximum of Eigen value of the hessian matrix predicts the generalizability of a trained model.[18]&lt;/li&gt;
+  &lt;li&gt;Synchornous SGD
+    &lt;ul&gt;
+      &lt;li&gt;requires large mini batch to effecively exploit parallel computations on multiple GPUs or nodes [7,3]&lt;/li&gt;
+      &lt;li&gt;exibits poor generalization [18]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;study-sensitivity-to-input-perturbation&quot;&gt;Study sensitivity to input perturbation:&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- insensitve means confident
+- sensitive means not confident 
+- adversarial training not always effective [29,9]
+- Minimum description length theory - requires few bits to describe generalization [14]
+- Flat / sharp local minima considers sensitivity of loss function against perturbation 
+  of model parameters.
+- Rademacher complexity and VC dimensions not adequate for understanding generazability [31]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;singular-values&quot;&gt;Singular values&lt;/h2&gt;
+&lt;p&gt;Spectral Norm of matrix is equivalent to largest singular value.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Restricting weight matrices in RNN to be unitary or orthogonal. (1,30)
+- i.e. Matrices with all singular values equal to one, the problem of 
+  diminishing and exploding gradients are prevented.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;general-idea&quot;&gt;General Idea&lt;/h2&gt;
+&lt;p&gt;x&lt;sup&gt;l&lt;/sup&gt; = f&lt;sup&gt;l&lt;/sup&gt; (W&lt;sup&gt;l&lt;/sup&gt;x&lt;sup&gt;l-1&lt;/sup&gt; + b&lt;sup&gt;l&lt;/sup&gt;)&lt;/p&gt;
+
+&lt;p&gt;for l = 1, … , L&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Piecewise_linear_function&quot;&gt;Piecewise linear function&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;DL&quot;]" /><category term="DL" /><summary type="html">Spectral Norm Regularization for Improving the Generalizability of Deep learning.</summary></entry><entry><title type="html">Incompetence is a state not permanence</title><link href="https://www.pramodmurthy.com/musings/2019/05/10/musings-incompetence.html" rel="alternate" type="text/html" title="Incompetence is a state not permanence" /><published>2019-05-10T00:00:00+02:00</published><updated>2019-05-10T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/musings/2019/05/10/musings-incompetence</id><content type="html" xml:base="https://www.pramodmurthy.com/musings/2019/05/10/musings-incompetence.html">&lt;p&gt;In a given limited time, we always wonder how can we excel in different areas at the same time.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;How can I learn good writing skills ?&lt;/li&gt;
@@ -394,66 +436,4 @@ $$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello World
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">print(&quot;Hello World&quot;)</summary></entry><entry><title type="html">MachineLearning</title><link href="https://www.pramodmurthy.com/blog/dl/2018/07/25/machinelearning.html" rel="alternate" type="text/html" title="MachineLearning" /><published>2018-07-25T00:00:00+02:00</published><updated>2018-07-25T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/blog/dl/2018/07/25/machinelearning</id><content type="html" xml:base="https://www.pramodmurthy.com/blog/dl/2018/07/25/machinelearning.html">&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
-
-&lt;p&gt;Deep learning has attracted lot of traction from various researchers coming from different fields from manufacturing, biology, image processing and language processing.  In the series of the blog post, I would be discussing how Uncertainty is modelled in Deeplearning. Before we jump into what it means to model uncertainty, we should know why it is important to have Deep Neural Nets to further its own impact.&lt;/p&gt;
-
-&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
-
-&lt;p&gt;The recent techniques of Recurrent Neural Nets,  Convolution Nets , Dropout and Regularization often lead to networks predicting deterministic functions. Models such as Gaussian Processes, often define probability distributions over functions with a confidence bounds for the Machine Learning system to do inference. The autonomous car would need to decide if it needs to be really careful about making its own decision by using other probabilistic estimates. Deep learning models predictions for such scenarios often leadto potential questions if the network is throwing random guesses or making sensible predictions.&lt;/p&gt;
-
-&lt;p&gt;Uncertainty information is crucial for medical diagnosis practitioner to know, if a model is detecting lot of false positives but quantifies its high level uncertainty (low belief) for a given set of input data.&lt;/p&gt;
-
-&lt;p&gt;Here are the other scenarios where uncertainty information would be crucial :&lt;/p&gt;
-
-&lt;p&gt;Model Uncertainty :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Model Parameters : Large number of models paraters to choose from.&lt;/li&gt;
-  &lt;li&gt;Structure Uncertainty : Whats the right model structure ?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Data  Uncertainty :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Data out of Distribution: Does the data show lies in the data distribution used for training the systems.&lt;/li&gt;
-  &lt;li&gt;Noisy Data Distribution: Does the data used contains an inherent in measurement  error leading to inappropriate learning.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;applications-need-to-model-uncertainty&quot;&gt;Applications need to model Uncertainty&lt;/h3&gt;
-
-&lt;p&gt;High frequency trading systems take decision, as control is handed over the machine learning systems to take economic decisions. Can systems detect they are in uncertain state of making decisions (by evaluating asset risk ) and let humans take control over it. Similar is the need with Medical Diagnosis and Autonomous vechicles.&lt;/p&gt;
-
-&lt;p&gt;References:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://mlg.eng.cam.ac.uk/yarin/thesis/thesis.pdf&quot;&gt;Gal, Y. (2016). Uncertainty in deep learning (Doctoral dissertation, PhD thesis, University of Cambridge).&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;dl&quot;]" /><category term="Machine Learning" /><category term="Linear Models" /><category term="Regression" /><summary type="html">Intro</summary></entry><entry><title type="html">Probabilistic Graphical Model - Intro</title><link href="https://www.pramodmurthy.com/blog/pgm/2017/11/10/probabilistic-graphical-model-intro.html" rel="alternate" type="text/html" title="Probabilistic Graphical Model - Intro" /><published>2017-11-10T00:00:00+01:00</published><updated>2017-03-09T20:25:52+01:00</updated><id>https://www.pramodmurthy.com/blog/pgm/2017/11/10/probabilistic-graphical-model-intro</id><content type="html" xml:base="https://www.pramodmurthy.com/blog/pgm/2017/11/10/probabilistic-graphical-model-intro.html">&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
-
-&lt;p&gt;Deep learning has attracted lot of traction from various researchers coming from different fields from manufacturing, biology, image processing and language processing.  In the series of the blog post, I would be discussing how Uncertainty is modelled in Deeplearning. Before we jump into what it means to model uncertainty, we should know why it is important to have Deep Neural Nets to further its own impact.&lt;/p&gt;
-
-&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
-
-&lt;p&gt;The recent techniques of Recurrent Neural Nets,  Convolution Nets , Dropout and Regularization often lead to networks predicting deterministic functions. Models such as Gaussian Processes, often define probability distributions over functions with a confidence bounds for the Machine Learning system to do inference. The autonomous car would need to decide if it needs to be really careful about making its own decision by using other probabilistic estimates. Deep learning models predictions for such scenarios often leadto potential questions if the network is throwing random guesses or making sensible predictions.&lt;/p&gt;
-
-&lt;p&gt;Uncertainty information is crucial for medical diagnosis practitioner to know, if a model is detecting lot of false positives but quantifies its high level uncertainty (low belief) for a given set of input data.&lt;/p&gt;
-
-&lt;p&gt;Here are the other scenarios where uncertainty information would be crucial :&lt;/p&gt;
-
-&lt;p&gt;Model Uncertainty :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Model Parameters : Large number of models paraters to choose from.&lt;/li&gt;
-  &lt;li&gt;Structure Uncertainty : Whats the right model structure ?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Data  Uncertainty :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Data out of Distribution: Does the data show lies in the data distribution used for training the systems.&lt;/li&gt;
-  &lt;li&gt;Noisy Data Distribution: Does the data used contains an inherent in measurement  error leading to inappropriate learning.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;applications-need-to-model-uncertainty&quot;&gt;Applications need to model Uncertainty&lt;/h3&gt;
-
-&lt;p&gt;High frequency trading systems take decision, as control is handed over the machine learning systems to take economic decisions. Can systems detect they are in uncertain state of making decisions (by evaluating asset risk ) and let humans take control over it. Similar is the need with Medical Diagnosis and Autonomous vechicles.&lt;/p&gt;
-
-&lt;p&gt;References:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://mlg.eng.cam.ac.uk/yarin/thesis/thesis.pdf&quot;&gt;Gal, Y. (2016). Uncertainty in deep learning (Doctoral dissertation, PhD thesis, University of Cambridge).&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;pgm&quot;]" /><summary type="html">Intro</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">print(&quot;Hello World&quot;)</summary></entry></feed>
