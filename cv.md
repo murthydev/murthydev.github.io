@@ -3,7 +3,7 @@ layout: cv
 title:  Résumé
 sidebar_link: true
 ---
-  <iframe src="https://drive.google.com/file/d/1Q3S-E6ykFbn19eV8fM4QucSJxbIHz5wv/preview" width="70%" height="1110" scrolling="no" frameBorder="0"></iframe>
+  <iframe src="https://drive.google.com/file/d/1Q3S-E6ykFbn19eV8fM4QucSJxbIHz5wv/preview" width="100%" height="100%" scrolling="no" frameBorder="0" allowfullscreen></iframe>
 <!-- <p class="message">
 	CV  shall be provided on request
 
