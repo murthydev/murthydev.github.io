@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://www.pramodmurthy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pramodmurthy.com/" rel="alternate" type="text/html" /><updated>2020-06-11T16:51:05+02:00</updated><id>https://www.pramodmurthy.com/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Introduction to Python</title><link href="https://www.pramodmurthy.com/py/2020/06/11/Python-00.html" rel="alternate" type="text/html" title="Introduction to Python" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/py/2020/06/11/Python-00</id><content type="html" xml:base="https://www.pramodmurthy.com/py/2020/06/11/Python-00.html">&lt;p&gt;Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+).
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://www.pramodmurthy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pramodmurthy.com/" rel="alternate" type="text/html" /><updated>2020-06-11T16:54:53+02:00</updated><id>https://www.pramodmurthy.com/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Introduction to Python</title><link href="https://www.pramodmurthy.com/py/2020/06/11/Python-00.html" rel="alternate" type="text/html" title="Introduction to Python" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/py/2020/06/11/Python-00</id><content type="html" xml:base="https://www.pramodmurthy.com/py/2020/06/11/Python-00.html">&lt;p&gt;Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+).
 You can run the interpreter in inline mode or script mode.&lt;/p&gt;
 
 &lt;h1 id=&quot;inline-mode&quot;&gt;Inline mode&lt;/h1&gt;
@@ -18,13 +18,35 @@ You can run the interpreter in inline mode or script mode.&lt;/p&gt;
 - Idle
 - Sublime-Text
 - Atom
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+). You can run the interpreter in inline mode or script mode.</summary></entry><entry><title type="html">Python functions</title><link href="https://www.pramodmurthy.com/py/2020/06/11/Python-01-loops.html" rel="alternate" type="text/html" title="Python functions" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/py/2020/06/11/Python-01-loops</id><content type="html" xml:base="https://www.pramodmurthy.com/py/2020/06/11/Python-01-loops.html">&lt;p&gt;Fruitful functions&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+). You can run the interpreter in inline mode or script mode.</summary></entry><entry><title type="html">Python Loops</title><link href="https://www.pramodmurthy.com/py/2020/06/11/Python-01-loops.html" rel="alternate" type="text/html" title="Python Loops" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/py/2020/06/11/Python-01-loops</id><content type="html" xml:base="https://www.pramodmurthy.com/py/2020/06/11/Python-01-loops.html">&lt;h1 id=&quot;range-function&quot;&gt;Range Function&lt;/h1&gt;
 
-&lt;p&gt;The defining functions:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def area(radius):
-    return 3.14159 * radius * radius
+&lt;h1 id=&quot;for-loop&quot;&gt;For Loop&lt;/h1&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Fruitful functions</summary></entry><entry><title type="html">Python functions</title><link href="https://www.pramodmurthy.com/py/2020/06/11/Python-02-functions.html" rel="alternate" type="text/html" title="Python functions" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/py/2020/06/11/Python-02-functions</id><content type="html" xml:base="https://www.pramodmurthy.com/py/2020/06/11/Python-02-functions.html">&lt;p&gt;Fruitful functions&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def sum_to(n):
+    &quot;&quot;&quot; Return the sum of 1+2+3 ... n &quot;&quot;&quot;
+    ss  = 0
+    for v in range(n+1):
+        ss = ss + v
+    return ss
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;while-loops&quot;&gt;While Loops&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def sum_to(n):
+    &quot;&quot;&quot; Return the sum of 1+2+3 ... n &quot;&quot;&quot;
+    ss  = 0
+    v = 1
+    while v &amp;lt;= n:
+        ss = ss + v
+        v = v + 1
+    return ss
+
+# For your test suite
+test(sum_to(4) == 10)
+test(sum_to(1000) == 500500)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Range Function</summary></entry><entry><title type="html">Python functions</title><link href="https://www.pramodmurthy.com/py/2020/06/11/Python-02-functions.html" rel="alternate" type="text/html" title="Python functions" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>https://www.pramodmurthy.com/py/2020/06/11/Python-02-functions</id><content type="html" xml:base="https://www.pramodmurthy.com/py/2020/06/11/Python-02-functions.html">&lt;p&gt;Fruitful functions&lt;/p&gt;
 
 &lt;p&gt;The defining functions:&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def area(radius):
