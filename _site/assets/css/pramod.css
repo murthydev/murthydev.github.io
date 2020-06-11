@@ -628,7 +628,7 @@ body {
   max-width: 100%;
   flex-flow: row wrap;
   justify-content: center;
-  margin-top: 1rem; }
+  margin-top: 15rem; }
   @media (min-width: 49rem) {
     #sidebar-icon-links {
       margin-left: -0.25em;

@@ -1,6 +1,7 @@
 <div id="sidebar">
-  <img src="/images/Pramod.png" alt="Profile Photo" height="60%" width="60%" /> 
+
   <header>
+  <!-- <img src="/images/Pramod.png" alt="Profile Photo" height="30%" width="30%" style="horizontal-align:center"/> -->
     <!-- <img src='{{ site.baseurl }}/images/me.jpg' width='55%' height='80%'/> -->
     <{% if page.layout == "index" %}h6{% else %}div{% endif %} class="site-title">
       <a href="{{ site.baseurl }}/">
@@ -10,9 +11,12 @@
         {{ site.title }}
       </a>
     </{% if page.layout == "index" %}h6{% else %}div{% endif %}>
-    <p class="lead">{{ site.description }}</p>
+    <p class="lead"> {{ site.description }} </p>
+    <p><img src="/images/Pramod.png" alt="Profile Photo" height="30%" width="30%" style="horizontal-align:center"/></p>
+
+    
+
   </header> 
-  
   {% include sidebar-nav-links.html %}
     {% comment %}
     {% if site.version %}
