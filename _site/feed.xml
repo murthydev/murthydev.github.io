@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-11T16:05:55+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Incompetence is a state not permanence</title><link href="http://localhost:4000/musings/2019/05/10/musings-incompetence.html" rel="alternate" type="text/html" title="Incompetence is a state not permanence" /><published>2019-05-10T00:00:00+02:00</published><updated>2019-05-10T00:00:00+02:00</updated><id>http://localhost:4000/musings/2019/05/10/musings-incompetence</id><content type="html" xml:base="http://localhost:4000/musings/2019/05/10/musings-incompetence.html">&lt;p&gt;In a given limited time, we always wonder how can we excel in different areas at the same time.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-11T16:16:39+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Introduction to Python</title><link href="http://localhost:4000/py/2020/06/11/Python-00.html" rel="alternate" type="text/html" title="Introduction to Python" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-00</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-00.html">&lt;p&gt;Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+).
+You can run the interpreter in inline mode or script mode.&lt;/p&gt;
+
+&lt;h1 id=&quot;inline-mode&quot;&gt;Inline mode&lt;/h1&gt;
+
+&lt;h2 id=&quot;default-interpreter&quot;&gt;Default interpreter&lt;/h2&gt;
+
+&lt;h2 id=&quot;ipython-interpreter&quot;&gt;IPython interpreter&lt;/h2&gt;
+
+&lt;h2 id=&quot;jupyter-notebook&quot;&gt;Jupyter notebook&lt;/h2&gt;
+
+&lt;h1 id=&quot;script-mode&quot;&gt;Script Mode&lt;/h1&gt;
+
+&lt;h2 id=&quot;terminal&quot;&gt;Terminal&lt;/h2&gt;
+
+&lt;h2 id=&quot;integrated-development-enviornment-ide&quot;&gt;Integrated Development Enviornment (IDE)&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Pycharm
+- Idle
+- Sublime-Text
+- Atom
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+). You can run the interpreter in inline mode or script mode.</summary></entry><entry><title type="html">Incompetence is a state not permanence</title><link href="http://localhost:4000/musings/2019/05/10/musings-incompetence.html" rel="alternate" type="text/html" title="Incompetence is a state not permanence" /><published>2019-05-10T00:00:00+02:00</published><updated>2019-05-10T00:00:00+02:00</updated><id>http://localhost:4000/musings/2019/05/10/musings-incompetence</id><content type="html" xml:base="http://localhost:4000/musings/2019/05/10/musings-incompetence.html">&lt;p&gt;In a given limited time, we always wonder how can we excel in different areas at the same time.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;How can I learn good writing skills ?&lt;/li&gt;
@@ -425,35 +445,4 @@ $$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}}
 &lt;p&gt;References:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://mlg.eng.cam.ac.uk/yarin/thesis/thesis.pdf&quot;&gt;Gal, Y. (2016). Uncertainty in deep learning (Doctoral dissertation, PhD thesis, University of Cambridge).&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;dl&quot;]" /><category term="Machine Learning" /><category term="Linear Models" /><category term="Regression" /><summary type="html">Intro</summary></entry><entry><title type="html">Probabilistic Graphical Model - Intro</title><link href="http://localhost:4000/blog/pgm/2017/11/10/probabilistic-graphical-model-intro.html" rel="alternate" type="text/html" title="Probabilistic Graphical Model - Intro" /><published>2017-11-10T00:00:00+01:00</published><updated>2017-03-09T20:25:52+01:00</updated><id>http://localhost:4000/blog/pgm/2017/11/10/probabilistic-graphical-model-intro</id><content type="html" xml:base="http://localhost:4000/blog/pgm/2017/11/10/probabilistic-graphical-model-intro.html">&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
-
-&lt;p&gt;Deep learning has attracted lot of traction from various researchers coming from different fields from manufacturing, biology, image processing and language processing.  In the series of the blog post, I would be discussing how Uncertainty is modelled in Deeplearning. Before we jump into what it means to model uncertainty, we should know why it is important to have Deep Neural Nets to further its own impact.&lt;/p&gt;
-
-&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
-
-&lt;p&gt;The recent techniques of Recurrent Neural Nets,  Convolution Nets , Dropout and Regularization often lead to networks predicting deterministic functions. Models such as Gaussian Processes, often define probability distributions over functions with a confidence bounds for the Machine Learning system to do inference. The autonomous car would need to decide if it needs to be really careful about making its own decision by using other probabilistic estimates. Deep learning models predictions for such scenarios often leadto potential questions if the network is throwing random guesses or making sensible predictions.&lt;/p&gt;
-
-&lt;p&gt;Uncertainty information is crucial for medical diagnosis practitioner to know, if a model is detecting lot of false positives but quantifies its high level uncertainty (low belief) for a given set of input data.&lt;/p&gt;
-
-&lt;p&gt;Here are the other scenarios where uncertainty information would be crucial :&lt;/p&gt;
-
-&lt;p&gt;Model Uncertainty :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Model Parameters : Large number of models paraters to choose from.&lt;/li&gt;
-  &lt;li&gt;Structure Uncertainty : Whats the right model structure ?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Data  Uncertainty :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Data out of Distribution: Does the data show lies in the data distribution used for training the systems.&lt;/li&gt;
-  &lt;li&gt;Noisy Data Distribution: Does the data used contains an inherent in measurement  error leading to inappropriate learning.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;applications-need-to-model-uncertainty&quot;&gt;Applications need to model Uncertainty&lt;/h3&gt;
-
-&lt;p&gt;High frequency trading systems take decision, as control is handed over the machine learning systems to take economic decisions. Can systems detect they are in uncertain state of making decisions (by evaluating asset risk ) and let humans take control over it. Similar is the need with Medical Diagnosis and Autonomous vechicles.&lt;/p&gt;
-
-&lt;p&gt;References:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://mlg.eng.cam.ac.uk/yarin/thesis/thesis.pdf&quot;&gt;Gal, Y. (2016). Uncertainty in deep learning (Doctoral dissertation, PhD thesis, University of Cambridge).&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;pgm&quot;]" /><summary type="html">Intro</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;dl&quot;]" /><category term="Machine Learning" /><category term="Linear Models" /><category term="Regression" /><summary type="html">Intro</summary></entry></feed>
