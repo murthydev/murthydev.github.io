@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: category
 title: Human Motion Capture
 category: motion-tracking
----
+--- -->
 
 ### 3D Human Motion Capture
 <br>

@@ -1,35 +1,32 @@
 <nav id="sidebar-icon-links">
-  {% if site.github.repo %}
+    {% if site.github.repo %}
     <a id="github-link"
        class="icon" title="Github Project" aria-label="Github Project"
        href="{{ site.github.repo }}">
       {% include svg/github.svg %}
     </a>
-  {% comment %}
+  <!-- {% comment %}
     Check if we have tag or search pages page active before linking to it.
     <a id="github-download-link"
        class="icon" title="Download" aria-label="Download"
        href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">
       {% include svg/download.svg %}
     </a>
-  {% endcomment %}
-
+  {% endcomment %} -->
   {% endif %}
   <a id="lnikedin-link"
        class="icon" title="LinkedIn" aria-label="LinkedIn"
        href="http://in.linkedin.com/in/pramodmurthy">
       {% include svg/linkedin.svg %}
   </a>
-
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.baseurl }}/feed.xml">
     {% include svg/feed.svg %}
   </a>
-
-  {% comment %}
+  <!-- {% comment %}
     Check if we have tag or search pages page active before linking to it.
-  {% endcomment %}
+  {% endcomment %}   -->
   {% assign tags_page = false %}
   {% assign search_page = false %}
   {% for node in site.pages %}
@@ -55,6 +52,6 @@
       {% include svg/search.svg %}
     </a>
   {% endif %}
-  {% include custom-icon-links.html %} 
+   {% include custom-icon-links.html %}
 </nav>
 

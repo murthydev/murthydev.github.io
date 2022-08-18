@@ -1,5 +1,5 @@
 <div id="sidebar">
-  <p style="horizontal-align:center"><img src="/images/Pramod.png" alt="Profile Photo" width="50%"/></p>
+  <p style="horizontal-align:center"><img align='center' src="/images/Pramod.png" alt="Profile Photo" width="65%"/></p>
   <header>
   <!-- <img src="/images/Pramod.png" alt="Profile Photo" height="30%" width="30%" style="horizontal-align:center"/> -->
     <!-- <img src='{{ site.baseurl }}/images/me.jpg' width='55%' height='80%'/> -->
@@ -12,16 +12,18 @@
       </a>
     </{% if page.layout == "index" %}h6{% else %}div{% endif %}>
     <p class="lead"> {{ site.description }} </p>
-  </header> 
+  </header>
 
   {% include sidebar-nav-links.html %}
-    {% comment %}
-    {% if site.version %}
-      <!-- <span class="site-version">Currently v{{ site.version }}</span> -->
-    {% endif %} 
-    {% endcomment %}   
+  <br/>
+  <span>  Email: <a href="mailto:mail@pramodmurthy.com?subject=Hey ! You there ... &body=Hi Pramod, %0A%0A   I would like to get in touch with you ! %0A%0A -  YOUR_NAME ">mail@pramodmurthy.com</a></span>
   {% include sidebar-icon-links.html %} 
-  <span><a href="mailto:mail@pramodmurthy.com?subject=Hey ! You there ... &body=Hi Pramod, %0A%0A   I would like to get in touch with you ! %0A%0A -  YOUR_NAME "> mail@pramodmurthy.com</a></p></span>
+  <br/>
   {% include copyright.html %}
+  <!-- {% comment %} -->
+  <!-- {% if site.version %} -->
+    <!-- <span class="site-version">Currently v{{ site.version }}</span> -->
+  <!-- {% endif %}  -->
+  <!-- {% endcomment %}    -->
 
 </div>

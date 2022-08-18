@@ -8,42 +8,44 @@ order: 1
 <table align='left'>
 <tbody>
 <tr>
-<td>
-<h3>Object Detection and Tracking </h3> <br>
-</td>
-<td>
-<iframe width="460" height="220" src="https://www.youtube.com/embed/L4DOYA7nXMM" frameborder="0" allowfullscreen></iframe>
+  <td>
+  <h3>Object Detection and Tracking </h3> <br/>
+  <iframe width="350" height="180" src="https://www.youtube.com/embed/L4DOYA7nXMM" frameborder="0" allowfullscreen></iframe>
+  </td>
+  <td>
+  </td>
+</tr>
+<tr>
+  <td>
+  <h3>Real-time Scene Text recognition</h3>
+  <br/>
+  <iframe width="350" height="180" src="https://www.youtube.com/embed/5ZO_EI75xCw" frameborder="0" allowfullscreen></iframe><br>
+  <a href="https://ags.cs.uni-kl.de/fileadmin/inf_ags/opt-ss13/Proceedings_OPT_WS13_14.pdf#page=3" > Read Report  </a>
+  <br>
+  </td>
+  <td>
 </td>
 </tr>
 <tr>
-<td>
-<h3>Real-time Scene Text recognition</h3>
-</td>
-<td>
-<iframe width="460" height="220" src="https://www.youtube.com/embed/5ZO_EI75xCw" frameborder="0" allowfullscreen></iframe><br>
-<a href="https://ags.cs.uni-kl.de/fileadmin/inf_ags/opt-ss13/Proceedings_OPT_WS13_14.pdf#page=3" > Read Report  </a>
-<br>
-</td>
+
+  <td>
+      <h3>Human Motion Capture</h3> <br/>		
+    <video width="350" height="180" controls>  <source src="http://av.dfki.de/~murthy/demos/theta_demo.mp4" type="video/mp4"></video><br/>
+    <iframe width="350" height="180" src="https://www.youtube.com/embed/1U0sjG-MH6g" frameborder="0" allowfullscreen></iframe>
+  </td>
+  <td>
+  </td>
 </tr>
 <tr>
- <td><h3>Human Motion Capture</h3> <br>		
- </td>
-<td>
- 	<video width="460" height="220" controls>  <source src="http://av.dfki.de/~murthy/demos/theta_demo.mp4" type="video/mp4"></video>
- 	<iframe width="460" height="220" src="https://www.youtube.com/embed/1U0sjG-MH6g" frameborder="0" allowfullscreen></iframe>
-</td>
-</tr>
-<tr>
-<td>
-<h3>Embedded Deep Learning</h3><br>
-</td>
-<td>
-<iframe width="460" height="220" src="https://www.youtube.com/embed/NvBH5aakt_A" frameborder="0" allowfullscreen></iframe>
-</td>
+  <td>
+  <h3>Embedded Deep Learning</h3><br>
+  <iframe width="350" height="180" src="https://www.youtube.com/embed/NvBH5aakt_A" frameborder="0" allowfullscreen></iframe>
+  </td>
+  <td>
+  </td>
 </tr>
 </tbody>
 </table>
-
 
 <!--
 <p class="message">

@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Thoughts2Vec
+title: Thought2Vec
 category: blog
 ---
