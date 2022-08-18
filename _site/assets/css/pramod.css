@@ -44,7 +44,7 @@ img {
 
 table {
   margin-bottom: 1rem;
-  width: 50%;
+  width: 90%;
   font-size: 85%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse; }
@@ -515,7 +515,8 @@ body {
 .container {
   flex: 1 1 auto;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  width: 80%; }
   .container > .content {
     flex-grow: 1; }
 
@@ -627,8 +628,7 @@ body {
 #sidebar-icon-links {
   max-width: 100%;
   flex-flow: row wrap;
-  justify-content: center;
-  margin-top: 15rem; }
+  justify-content: center; }
   @media (min-width: 49rem) {
     #sidebar-icon-links {
       margin-left: -0.25em;
@@ -747,7 +747,7 @@ button.disqus-load {
     border: solid #e5e5e5;
     border-radius: 300px;
     border-width: 1px;
-    width: 60%;
+    width: 80%;
     max-width: 20rem;
     background: #fff;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); }

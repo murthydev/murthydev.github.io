@@ -1,24 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-11T22:03:11+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Introduction to Python</title><link href="http://localhost:4000/py/2020/06/11/Python-00.html" rel="alternate" type="text/html" title="Introduction to Python" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-00</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-00.html">&lt;p&gt;Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+).
-You can run the interpreter in inline mode or script mode.&lt;/p&gt;
-
-&lt;h1 id=&quot;inline-mode&quot;&gt;Inline mode&lt;/h1&gt;
-
-&lt;h2 id=&quot;default-interpreter&quot;&gt;Default interpreter&lt;/h2&gt;
-
-&lt;h2 id=&quot;ipython-interpreter&quot;&gt;IPython interpreter&lt;/h2&gt;
-
-&lt;h2 id=&quot;jupyter-notebook&quot;&gt;Jupyter notebook&lt;/h2&gt;
-
-&lt;h1 id=&quot;script-mode&quot;&gt;Script Mode&lt;/h1&gt;
-
-&lt;h2 id=&quot;terminal&quot;&gt;Terminal&lt;/h2&gt;
-
-&lt;h2 id=&quot;integrated-development-enviornment-ide&quot;&gt;Integrated Development Enviornment (IDE)&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Pycharm
-- Idle
-- Sublime-Text
-- Atom
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+). You can run the interpreter in inline mode or script mode.</summary></entry><entry><title type="html">Python Loops</title><link href="http://localhost:4000/py/2020/06/11/Python-01-loops.html" rel="alternate" type="text/html" title="Python Loops" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-01-loops</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-01-loops.html">&lt;h1 id=&quot;range-function&quot;&gt;Range Function&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-18T13:11:38+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Python Loops</title><link href="http://localhost:4000/py/2020/06/11/Python-01-loops.html" rel="alternate" type="text/html" title="Python Loops" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-01-loops</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-01-loops.html">&lt;h1 id=&quot;range-function&quot;&gt;Range Function&lt;/h1&gt;
 
 &lt;h1 id=&quot;for-loop&quot;&gt;For Loop&lt;/h1&gt;
 
@@ -46,7 +26,27 @@ You can run the interpreter in inline mode or script mode.&lt;/p&gt;
 test(sum_to(4) == 10)
 test(sum_to(1000) == 500500)
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Range Function</summary></entry><entry><title type="html">Python functions</title><link href="http://localhost:4000/py/2020/06/11/Python-02-functions.html" rel="alternate" type="text/html" title="Python functions" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-02-functions</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-02-functions.html">&lt;p&gt;Fruitful functions&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Range Function</summary></entry><entry><title type="html">Introduction to Python</title><link href="http://localhost:4000/py/2020/06/11/Python-00.html" rel="alternate" type="text/html" title="Introduction to Python" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-00</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-00.html">&lt;p&gt;Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+).
+You can run the interpreter in inline mode or script mode.&lt;/p&gt;
+
+&lt;h1 id=&quot;inline-mode&quot;&gt;Inline mode&lt;/h1&gt;
+
+&lt;h2 id=&quot;default-interpreter&quot;&gt;Default interpreter&lt;/h2&gt;
+
+&lt;h2 id=&quot;ipython-interpreter&quot;&gt;IPython interpreter&lt;/h2&gt;
+
+&lt;h2 id=&quot;jupyter-notebook&quot;&gt;Jupyter notebook&lt;/h2&gt;
+
+&lt;h1 id=&quot;script-mode&quot;&gt;Script Mode&lt;/h1&gt;
+
+&lt;h2 id=&quot;terminal&quot;&gt;Terminal&lt;/h2&gt;
+
+&lt;h2 id=&quot;integrated-development-enviornment-ide&quot;&gt;Integrated Development Enviornment (IDE)&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Pycharm
+- Idle
+- Sublime-Text
+- Atom
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+). You can run the interpreter in inline mode or script mode.</summary></entry><entry><title type="html">Python functions</title><link href="http://localhost:4000/py/2020/06/11/Python-02-functions.html" rel="alternate" type="text/html" title="Python functions" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-02-functions</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-02-functions.html">&lt;p&gt;Fruitful functions&lt;/p&gt;
 
 &lt;p&gt;The defining functions:&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def area(radius):
@@ -412,7 +412,11 @@ How Important Is a Neuron?
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1810.04261.pdf&quot;&gt;A Tale of Three Probabilistic Families: Discriminative, Descriptive
 and Generative Models&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;pgm&quot;]" /><category term="Generative" /><category term="Discriminative" /><category term="Descriptive" /><category term="PGM" /><summary type="html">References:</summary></entry><entry><title type="html">Bayesian Neural Networks</title><link href="http://localhost:4000/blog/pgm/2018/08/07/bnn.html" rel="alternate" type="text/html" title="Bayesian Neural Networks" /><published>2018-08-07T00:00:00+02:00</published><updated>2018-08-07T00:00:00+02:00</updated><id>http://localhost:4000/blog/pgm/2018/08/07/bnn</id><content type="html" xml:base="http://localhost:4000/blog/pgm/2018/08/07/bnn.html">&lt;p&gt;Bayesian Neural Networks uses Proabibilitic Model along with Neural Networks.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;pgm&quot;]" /><category term="Generative" /><category term="Discriminative" /><category term="Descriptive" /><category term="PGM" /><summary type="html">References:</summary></entry><entry><title type="html">Computational Power and Socail Impact of AI and Block Chain</title><link href="http://localhost:4000/musings/2018/08/07/computation-impact.html" rel="alternate" type="text/html" title="Computational Power and Socail Impact of AI and Block Chain" /><published>2018-08-07T00:00:00+02:00</published><updated>2018-08-07T00:00:00+02:00</updated><id>http://localhost:4000/musings/2018/08/07/computation-impact</id><content type="html" xml:base="http://localhost:4000/musings/2018/08/07/computation-impact.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1803.08971.pdf&quot;&gt;COMPUTATIONAL POWER AND THE SOCIAL IMPACT OF ARTIFICIAL INTELLIGENCE&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="computational impact" /><category term="block-chain" /><category term="deep learning" /><summary type="html">References:</summary></entry><entry><title type="html">Bayesian Neural Networks</title><link href="http://localhost:4000/blog/pgm/2018/08/07/bnn.html" rel="alternate" type="text/html" title="Bayesian Neural Networks" /><published>2018-08-07T00:00:00+02:00</published><updated>2018-08-07T00:00:00+02:00</updated><id>http://localhost:4000/blog/pgm/2018/08/07/bnn</id><content type="html" xml:base="http://localhost:4000/blog/pgm/2018/08/07/bnn.html">&lt;p&gt;Bayesian Neural Networks uses Proabibilitic Model along with Neural Networks.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Probabilistic Programming Libraries:
@@ -440,8 +444,4 @@ $$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}}
   &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1511.02680_&quot;&gt;Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1505.05424&quot;&gt;Weight Uncertainty in Neural Networks&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1801.07710.pdf&quot;&gt;Study of Bayesian Neural Networks&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;pgm&quot;]" /><category term="Deep learning" /><category term="Bayesian Neural Networks" /><summary type="html">Bayesian Neural Networks uses Proabibilitic Model along with Neural Networks.</summary></entry><entry><title type="html">Computational Power and Socail Impact of AI and Block Chain</title><link href="http://localhost:4000/musings/2018/08/07/computation-impact.html" rel="alternate" type="text/html" title="Computational Power and Socail Impact of AI and Block Chain" /><published>2018-08-07T00:00:00+02:00</published><updated>2018-08-07T00:00:00+02:00</updated><id>http://localhost:4000/musings/2018/08/07/computation-impact</id><content type="html" xml:base="http://localhost:4000/musings/2018/08/07/computation-impact.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1803.08971.pdf&quot;&gt;COMPUTATIONAL POWER AND THE SOCIAL IMPACT OF ARTIFICIAL INTELLIGENCE&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="computational impact" /><category term="block-chain" /><category term="deep learning" /><summary type="html">References:</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;pgm&quot;]" /><category term="Deep learning" /><category term="Bayesian Neural Networks" /><summary type="html">Bayesian Neural Networks uses Proabibilitic Model along with Neural Networks.</summary></entry></feed>
