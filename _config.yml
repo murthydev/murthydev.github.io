@@ -1,0 +1,57 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            'Pramod Murthy'
+tagline:          'Deep Learning, Computer Vision, Machine Learning Researcher'
+description:      'Researcher '
+url:              https://www.pramodmurthy.com
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+google_analytics: UA-45894387-2
+#author:
+  #name:           'Pramod Murthy'
+  #url:            https://twitter.com/fongandrewc
+
+
+plugins:
+  # - jekyll-paginate
+  - jekyll-gist
+  - jekyll-jupyter-notebook
+  - jekyll-feed
+  - jekyll-algolia
+  - jekyll-scholar
+
+
+paginate:         0
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+  
+
+# Custom vars
+version:            3.4.1
+sidebar_home_link:  true
+
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+github:
+  repo:             https://github.com/murthydev
+
+exclude:          ['*.ipynb']
+
+algolia:
+  application_id: AGHL6NOVVE
+  index_name:     blog # You can replace that with whatever name you want
+  search_only_api_key: 516ff5f67126b88a5d6d0a7b1d0f213e
+
+destination: docs/
+
+scholar:
+  style: apa
+  source:  _bibliography

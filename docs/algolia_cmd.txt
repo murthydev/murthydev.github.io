@@ -1,0 +1,1 @@
+ALGOLIA_API_KEY=516ff5f67126b88a5d6d0a7b1d0f213e bundler exec jekyll algolia
