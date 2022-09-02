@@ -5,34 +5,41 @@ sidebar_link: true
 order: 1
 ---
 
-<table align='left'>
+<table align='left' width="100%">
 <tbody align='center'>
 <tr>
   <td>
-  <h3>Object Detection and Tracking </h3> <br/>
-  <iframe width="350" height="180" src="https://www.youtube.com/embed/L4DOYA7nXMM" frameborder="0" allowfullscreen></iframe>
+      <h3>Human Motion Capture</h3> <br/>		
+    <video width="80%"  controls>  <source src="http://av.dfki.de/~murthy/demos/theta_demo.mp4" type="video/mp4"></video><br/>
+    <div style="position:relative;padding-top:56.25%;">
+    <iframe style="position:absolute;top:0;left:10%;width:80%;height:80%;"  src="https://www.youtube.com/embed/1U0sjG-MH6g" frameborder="0" allowfullscreen></iframe>
+    </div>
   </td>
 </tr>
 <tr>
   <td>
   <h3>Real-time Scene Text recognition</h3>
   <br/>
-  <iframe width="350" height="180" src="https://www.youtube.com/embed/5ZO_EI75xCw" frameborder="0" allowfullscreen></iframe><br>
-  [<a href="https://ags.cs.uni-kl.de/fileadmin/inf_ags/opt-ss13/Proceedings_OPT_WS13_14.pdf#page=3" > Read Report  </a>]
-  <br>
-  </td>
-</tr>
-<tr>
-  <td>
-      <h3>Human Motion Capture</h3> <br/>		
-    <video width="350" height="180" controls>  <source src="http://av.dfki.de/~murthy/demos/theta_demo.mp4" type="video/mp4"></video><br/>
-    <iframe width="350" height="180" src="https://www.youtube.com/embed/1U0sjG-MH6g" frameborder="0" allowfullscreen></iframe>
+    <div style="position:relative;padding-top:56.25%;">
+    <iframe style="position:absolute;top:0;left:10%;width:80%;height:80%;"  src="https://www.youtube.com/embed/5ZO_EI75xCw" frameborder="0" allowfullscreen></iframe>
+      [<a href="https://ags.cs.uni-kl.de/fileadmin/inf_ags/opt-ss13/Proceedings_OPT_WS13_14.pdf#page=3" > Read Project-report  </a>]
+    </div>
   </td>
 </tr>
 <tr>
   <td>
   <h3>Embedded Deep Learning</h3><br>
-  <iframe width="350" height="180" src="https://www.youtube.com/embed/NvBH5aakt_A" frameborder="0" allowfullscreen></iframe>
+    <div style="position:relative;padding-top:56.25%;">
+    <iframe style="position:absolute;top:0;left:10%;width:80%;height:80%;"  src="https://www.youtube.com/embed/NvBH5aakt_A" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+  <h3>Object Detection and Tracking </h3> <br/>
+     <div style="position:relative;padding-top:56.25%;">
+    <iframe style="position:absolute;top:0;left:10%;width:80%;height:80%;"  src="https://www.youtube.com/embed/L4DOYA7nXMM" frameborder="0" allowfullscreen></iframe>
+    </div> 
   </td>
 </tr>
 </tbody>

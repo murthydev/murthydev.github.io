@@ -28,23 +28,25 @@ body {
   background-image: linear-gradient(
     to bottom,
     lighten($sidebar-bg-color, 7%),
-    darken($sidebar-bg-color, 7%));
+    darken($sidebar-bg-color, 17%));
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
+
 }
 
 #sidebar {
   flex: 0 0 auto;
+  #height: 100%;
   padding: $section-spacing;
 
   .site-title {
-    #font-family: "Abril Fatface", serif;
+    font-family: "Roboto", serif;
     font-weight: normal;
     font-size: $large-font-size;
     color: rgba(255,255,255,.75);
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: $heading-spacing;
 
     a {
@@ -52,7 +54,7 @@ body {
       &:hover { color: white; }
     }
 
-    .back-arrow { margin-right: 0.5rem; }
+    .back-arrow { margin-right: 0.25rem; }
   }
 }
 
@@ -62,6 +64,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 80%;
+  margin: 0 0.25rem 1rem;
 
   > .content {
     flex-grow: 1;
@@ -185,7 +188,7 @@ body {
   .container {
     background: $body-bg;
     color: $body-color;
-    padding: $section-spacing * 2;
+    padding: $section-spacing * 1.5;
     height: 100vh;
 
     > header {

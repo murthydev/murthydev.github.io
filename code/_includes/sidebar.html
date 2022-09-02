@@ -1,7 +1,8 @@
 <div id="sidebar">
-  <p style="horizontal-align:center"><img align='center' src="/images/Pramod.png" alt="Profile Photo" width="65%"/></p>
+  {% include profile-pic.html %}
   <header>
-  <!-- <img src="/images/Pramod.png" alt="Profile Photo" height="30%" width="30%" style="horizontal-align:center"/> -->
+<!--   <img style="margin: 0 0% 1rem;"  alt="Profile Photo" width="40%" src="/images/Pramod.png" />
+ -->  <!-- <img src="/images/Pramod.png" alt="Profile Photo" height="30%" width="30%" style="horizontal-align:center"/> -->
     <!-- <img src='{{ site.baseurl }}/images/me.jpg' width='55%' height='80%'/> -->
     <{% if page.layout == "index" %}h6{% else %}div{% endif %} class="site-title">
       <a href="{{ site.baseurl }}/">
@@ -13,11 +14,9 @@
     </{% if page.layout == "index" %}h6{% else %}div{% endif %}>
     <p class="lead"> {{ site.description }} </p>
   </header>
-
+  
   {% include sidebar-nav-links.html %}
   <br/>
-
-  
   {% include sidebar-icon-links.html %} 
   <br/>
   {% include copyright.html %}

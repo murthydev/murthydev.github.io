@@ -4,7 +4,7 @@ title: Research
 sidebar_link: true
 ---
 <h3>Publications</h3>
-<table align='left' width='100%' >
+<table align='left'>
 <tbody>
 <tr>
 <td >
@@ -14,8 +14,8 @@ sidebar_link: true
    <i>20th Spring School "Technologies in Competitive Sports", Leipzig, Germany </i>, September 2022. <br/>
 </td>
 
-<td align="center" width='15%'>
-   [<a href="https://sport-iat.de/fileadmin/user_upload/Veranstaltungen/FJS-2022/Abstracts/Murthy.pdf"> Paper </a>]
+<td align="center" width='10%'>
+   [<a href="https://sport-iat.de/fileadmin/user_upload/Veranstaltungen/FJS-2022/Abstracts/Murthy.pdf">Paper</a>]
 </td>
 </tr>
 
@@ -27,7 +27,7 @@ sidebar_link: true
    <i>1st International Conference on Deep Learning Theory and Applications</i>, DeLTA 2020. 
 </td>
 <td align="center">
-   [<a href="https://www.dfki.de/fileadmin/user_upload/import/11069_DeLTA_2020_17_CR.pdf"> Paper </a>]
+   [<a href="https://www.dfki.de/fileadmin/user_upload/import/11069_DeLTA_2020_17_CR.pdf">Paper</a>]
 </td>
 </tr>
 
@@ -50,7 +50,7 @@ sidebar_link: true
    Pramod Murthy, Hammad Butt, Sandesh Hiremath, Alireza Koshhal & Didier Stricker <br/>   In <i>IPSJ Transactions on Computer Vision and Applications (MVA) 2019</i>.
 </td>
 <td align="center">
-   [<a href="https://ipsjcva.springeropen.com/articles/10.1186/s41074-019-0057-z"> Paper </a>]
+   [<a href="https://ipsjcva.springeropen.com/articles/10.1186/s41074-019-0057-z">Paper</a>]
 </td>
 </tr>
 <tr>
@@ -60,7 +60,7 @@ sidebar_link: true
    In <i>International Conference on Virtual Reality and Augmented Reality, (pp. 28–47). Springer. 2018</i><br>
 </td>
 <td align="center">
-   [<a href="https://www.dfki.de/web/forschung/publikationen/renameFileForDownload?filename=Elhayek2018_EuroVR_Multi-person%20Human%20Motion%20Capture.pdf&file_id=uploads_3812"> Paper </a>]
+   [<a href="https://www.dfki.de/web/forschung/publikationen/renameFileForDownload?filename=Elhayek2018_EuroVR_Multi-person%20Human%20Motion%20Capture.pdf&file_id=uploads_3812">Paper</a>]
 </td>
 </tr>
 <tr>
@@ -71,8 +71,8 @@ Pramod Murthy, Onorina Kovalenko, Ahmed Elhayek, Christiano Gava & Didier Strick
 
 </td>
 <td align="center">
-   [<a href="https://www.dfki.de/web/forschung/publikationen/renameFileForDownload?filename=Murthy_2017_ACM_CSCS_3D_Human_Pose_Spherical.pdf&file_id=uploads_3284"> Paper </a>] <br/>
-   [<a href="http://av.dfki.de/~murthy/demos/theta_demo.mp4"> Video </a>]
+   [<a href="https://www.dfki.de/web/forschung/publikationen/renameFileForDownload?filename=Murthy_2017_ACM_CSCS_3D_Human_Pose_Spherical.pdf&file_id=uploads_3284">Paper</a>] <br/>
+   [<a href="http://av.dfki.de/~murthy/demos/theta_demo.mp4">Video</a>]
 </td>
 <!-- <td>
     <video width="200" height="120" controls>  <source src="http://av.dfki.de/~murthy/demos/theta_demo.mp4" type="video/mp4"></video><br/>
