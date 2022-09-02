@@ -64,9 +64,11 @@ h2.post-title, h2.page-title {
 .posts-list {
   padding-left: 0;
   list-style: none;
-
-  h3 {
+  
+  h3{
+    font-size: 95%;
     margin-top: 0;
+    margin-bottom: 0.4rem;
   }
 
   li {

@@ -38,16 +38,20 @@ body {
 
 #sidebar {
   flex: 0 0 auto;
-  #height: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  // height: 100%;
   padding: $section-spacing;
+  align-self: flex-start;
 
   .site-title {
-    font-family: "Roboto", serif;
+    font-family: "Courier", serif;
     font-weight: normal;
     font-size: $large-font-size;
     color: rgba(255,255,255,.75);
     margin-top: 0px;
-    margin-bottom: $heading-spacing;
+    margin-bottom: 0px; //$heading-spacing;
 
     a {
       color: inherit;
@@ -56,6 +60,7 @@ body {
 
     .back-arrow { margin-right: 0.25rem; }
   }
+
 }
 
 // Container is flexbox as well -- we want content div to stretch and fill
@@ -63,7 +68,7 @@ body {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  width: 80%;
+  // width: 80%;
   margin: 0 0.25rem 1rem;
 
   > .content {
@@ -116,6 +121,8 @@ body {
 
   // Center sidebar content
   text-align: center;
+  align-self: flex-start;
+  align-content: center;
 
   // Bigger title
   .site-title {
