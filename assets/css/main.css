@@ -44,7 +44,7 @@ img {
 
 table {
   margin-bottom: 1rem;
-  width: 90%;
+  width: 95%;
   font-size: 85%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse; }
@@ -62,7 +62,7 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9; }
 
 input[type="text"], input[type="search"], input[type="submit"], button {
-  padding: 1em 1.5em;
+  padding: 1em 0.5em;
   border: 1px solid #e5e5e5;
   border-radius: 300px; }
 
@@ -489,7 +489,7 @@ pre {
 body {
   color: rgba(255, 255, 255, 0.75);
   background-color: #4080B0;
-  background-image: linear-gradient(to bottom, #5392c1, #366d96);
+  background-image: linear-gradient(to bottom, #5392c1, #295270);
   display: flex;
   flex-direction: column;
   min-width: 100vw;
@@ -497,26 +497,28 @@ body {
 
 #sidebar {
   flex: 0 0 auto;
+  #height: 100%;
   padding: 2rem; }
   #sidebar .site-title {
-    #font-family: "Abril Fatface", serif;
+    font-family: "Roboto", serif;
     font-weight: normal;
     font-size: 1.05rem;
     color: rgba(255, 255, 255, 0.75);
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0.5rem; }
     #sidebar .site-title a {
       color: inherit; }
       #sidebar .site-title a:hover {
         color: white; }
     #sidebar .site-title .back-arrow {
-      margin-right: 0.5rem; }
+      margin-right: 0.25rem; }
 
 .container {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  width: 80%; }
+  width: 80%;
+  margin: 0 0.25rem 1rem; }
   .container > .content {
     flex-grow: 1; }
 
@@ -569,7 +571,7 @@ body {
 
   /* Undo mobile CSS */
   #sidebar, .home #sidebar {
-    width: 20rem;
+    width: 18rem;
     text-align: left; }
     #sidebar > *:last-child, .home #sidebar > *:last-child {
       margin-bottom: 0; }
@@ -591,7 +593,7 @@ body {
   .container {
     background: #fff;
     color: #515151;
-    padding: 4rem;
+    padding: 3rem;
     height: 100vh; }
     .container > header {
       color: inherit;
@@ -661,7 +663,7 @@ body {
 .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 2rem; }
 
 .masthead-title {
   margin-top: 0;
@@ -746,12 +748,12 @@ button.disqus-load {
   text-align: center; }
   .pagination > a {
     display: inline-block;
-    padding: 1em 1.5em;
+    padding: 1em 0.5em;
     border: solid #e5e5e5;
     border-radius: 300px;
     border-width: 1px;
     width: 80%;
-    max-width: 20rem;
+    max-width: 18rem;
     background: #fff;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); }
     .pagination > a:hover {
