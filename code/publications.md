@@ -19,6 +19,7 @@ sidebar_link: true
    [Coming soon]
 </td>
 </tr>
+
 <tr>
 <td >
    <b>Low-latency detection of diving sports movements in training videos.</b> 
@@ -31,6 +32,7 @@ sidebar_link: true
    [<a href="https://sport-iat.de/fileadmin/user_upload/Veranstaltungen/FJS-2022/Abstracts/Murthy.pdf">Paper (German)</a>]
 </td>
 </tr>
+
 <tr>
 <td >
    <b>Magnetometer Robust Deep Human Pose Regression With Uncertainty Prediction Using Sparse Body Worn Magnetic Inertial Measurement Units</b> 
@@ -42,6 +44,7 @@ sidebar_link: true
 <td align="center" width='10%'>
    [<a href="https://ieeexplore.ieee.org/document/9363874">Paper</a>]
 </td>
+</tr>
 
 <tr>
 <td>
@@ -52,9 +55,8 @@ sidebar_link: true
    [<a href="https://ieeexplore.ieee.org/document/9348890">Paper</a>]
 </td>
 </tr>
-<tr>
 
-</tr>
+
 <tr>
 <td>
    <b>Generation of Human Images with Clothing using Advanced Conditional GANs.</b> 
