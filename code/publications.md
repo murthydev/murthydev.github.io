@@ -28,7 +28,7 @@ sidebar_link: true
 </td>
 
 <td align="center" width='10%'>
-   [<a href="https://sport-iat.de/fileadmin/user_upload/Veranstaltungen/FJS-2022/Abstracts/Murthy.pdf">Paper</a>]
+   [<a href="https://sport-iat.de/fileadmin/user_upload/Veranstaltungen/FJS-2022/Abstracts/Murthy.pdf">Paper (German)</a>]
 </td>
 </tr>
 <tr>
@@ -42,6 +42,18 @@ sidebar_link: true
 <td align="center" width='10%'>
    [<a href="https://ieeexplore.ieee.org/document/9363874">Paper</a>]
 </td>
+
+<tr>
+<td>
+   <b>Simultaneous End User Calibration of Multiple Magnetic Inertial Measurement Units With Associated Uncertainty</b><br/>
+   Hammad Butt, Mathias Musahl,  Maria Alejandra Sanchez Marin, Pramod Murthy, Kumar Ankit and Didier Stricker. <br> <i>IEEE Access, vol. 9, pp. 26468-26483,  </i>, 2021. <br>
+</td>
+<td align="center">
+   [<a href="https://ieeexplore.ieee.org/document/9348890">Paper</a>]
+</td>
+</tr>
+<tr>
+
 </tr>
 <tr>
 <td>
@@ -55,19 +67,29 @@ sidebar_link: true
 </td>
 </tr>
 
-<!-- <tr>
-<td>
+
+
+
+<tr>
+<!-- <td>
    <b>Intelligent Sensor Fusion with Online Distributed MIMU Calibration for Wearable Motion Capture.</b><br/>
    Hammad Butt, Manthan Pancholi, Mathias Musahl, Pramod Murthy, Maria Alejandra Sanchez Marin, Didier Stricker. <br> <i>Fusion 2019, 22nd International Conference on Information Fusion</i>, Ottawa, Canada, 2019. 
 </td>
-</tr>
+<td align="center">
+   [<a href="https://www.researchgate.net/profile/Hammad-Butt-3/publication/344449055_Inertial_Motion_Capture_Using_Adaptive_Sensor_Fusion_and_Joint_Angle_Drift_Correction/links/61666a573851f95994f76121/Inertial-Motion-Capture-Using-Adaptive-Sensor-Fusion-and-Joint-Angle-Drift-Correction.pdf">Paper</a>]
+</td>
+</tr> -->
 <tr>
 <td>
    <b>Inertial Motion Capture Using Adaptive Sensor Fusion and Joint Angle Drift Correction</b><br>
-   Hammad Butt, Manthan Pancholi, Mathias Musahl, Pramod Murthy, Maria Alejandra Sanchez Marin, Didier Stricker.<br/> 
+   Hammad Butt, Manthan Pancholi, Mathias Musahl, Pramod Murthy, Maria Alejandra Sanchez, Didier Stricker.<br/> 
    <i>Fusion 2019, 22nd International Conference on Information Fusion </i>,Ottawa, Canada, 2019.
 </td>
-</tr> -->
+<td align="center">
+   [<a href="https://www.researchgate.net/profile/Hammad-Butt-3/publication/344449055_Inertial_Motion_Capture_Using_Adaptive_Sensor_Fusion_and_Joint_Angle_Drift_Correction/links/61666a573851f95994f76121/Inertial-Motion-Capture-Using-Adaptive-Sensor-Fusion-and-Joint-Angle-Drift-Correction.pdf">Paper</a>]
+</td>
+
+</tr> 
 <tr>
 <td>
    <b>Learning 3D Joint Constraints from Vision based Motion Capture Datasets. (Oral Presentation)</b><br>
