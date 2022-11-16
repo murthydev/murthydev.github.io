@@ -84,7 +84,7 @@ sidebar_link: true
    <i>Fusion 2019, 22nd International Conference on Information Fusion </i>,Ottawa, Canada, 2019.
 </td>
 <td align="center">
-   [<a href="https://www.researchgate.net/profile/Hammad-Butt-3/publication/344449055_Inertial_Motion_Capture_Using_Adaptive_Sensor_Fusion_and_Joint_Angle_Drift_Correction/links/61666a573851f95994f76121/Inertial-Motion-Capture-Using-Adaptive-Sensor-Fusion-and-Joint-Angle-Drift-Correction.pdf">Paper</a>]
+   [<a href="https://ieeexplore.ieee.org/document/9011359">Paper</a>]
 </td>
 </tr> 
 
