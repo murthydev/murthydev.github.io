@@ -6,6 +6,19 @@ sidebar_link: true
 <h3>Publications</h3>
 <table align='left'>
 <tbody>
+
+<tr>
+<td >
+   <b>DiveNet : Dive Action Localization and Physical Parameter Extraction for High Performance Training</b> 
+   <br/>
+   Pramod Murthy, Bertram Taetz, Arpit Lekhra and Didier Stricker. <br>
+   <i>UNDER REVIEW </i>,  2022. <br/>
+</td>
+
+<td align="center" width='10%'>
+   [Coming soon]
+</td>
+</tr>
 <tr>
 <td >
    <b>Low-latency detection of diving sports movements in training videos.</b> 
@@ -18,7 +31,18 @@ sidebar_link: true
    [<a href="https://sport-iat.de/fileadmin/user_upload/Veranstaltungen/FJS-2022/Abstracts/Murthy.pdf">Paper</a>]
 </td>
 </tr>
+<tr>
+<td >
+   <b>Magnetometer Robust Deep Human Pose Regression With Uncertainty Prediction Using Sparse Body Worn Magnetic Inertial Measurement Units</b> 
+   <br/>
+   Hammad T. Butt, Bertram Taetz, Mathias Musahl, Maria A. Sanchez, Pramod Murthy and Didier Stricker <br>
+   <i>IEEE Access, vol. 9, pp. 36657-36673,  </i>, 2021. <br/>
+</td>
 
+<td align="center" width='10%'>
+   [<a href="https://ieeexplore.ieee.org/document/9363874">Paper</a>]
+</td>
+</tr>
 <tr>
 <td>
    <b>Generation of Human Images with Clothing using Advanced Conditional GANs.</b> 
@@ -60,7 +84,7 @@ sidebar_link: true
    In <i>International Conference on Virtual Reality and Augmented Reality, (pp. 28–47). Springer. 2018</i><br>
 </td>
 <td align="center">
-   [<a href="https://www.dfki.de/web/forschung/publikationen/renameFileForDownload?filename=Elhayek2018_EuroVR_Multi-person%20Human%20Motion%20Capture.pdf&file_id=uploads_3812">Paper</a>]
+   [<a href="https://www.dfki.de/fileadmin/user_upload/import/9952_Elhayek2018_EuroVR_Multi-person_Human_Motion_Capture.pdf">Paper</a>]
 </td>
 </tr>
 <tr>
@@ -71,7 +95,7 @@ Pramod Murthy, Onorina Kovalenko, Ahmed Elhayek, Christiano Gava & Didier Strick
 
 </td>
 <td align="center">
-   [<a href="https://www.dfki.de/web/forschung/publikationen/renameFileForDownload?filename=Murthy_2017_ACM_CSCS_3D_Human_Pose_Spherical.pdf&file_id=uploads_3284">Paper</a>] <br/>
+   [<a href="https://www.dfki.de/fileadmin/user_upload/import/9349_Murthy_2017_ACM_CSCS_3D_Human_Pose_Spherical.pdf">Paper</a>] <br/>
    [<a href="http://av.dfki.de/~murthy/demos/theta_demo.mp4">Video</a>]
 </td>
 <!-- <td>
