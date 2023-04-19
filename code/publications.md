@@ -11,11 +11,11 @@ sidebar_link: true
    <b>DiveNet : Dive Action Localization and Physical Parameter Extraction for High Performance Training</b> 
    <br/>
    Pramod Murthy, Bertram Taetz, Arpit Lekhra and Didier Stricker. <br>
-   <i>UNDER REVIEW </i>,  2022. <br/>
+   <i>IEEE Access </i>, doi: 10.1109/ACCESS.2023.3265595, 2023. <br/>
 </td>
 
 <td align="center" width='10%'>
-   [Coming soon]
+   [<a href="https://ieeexplore.ieee.org/document/10097490">Paper</a>]
 </td>
 </tr>
 
