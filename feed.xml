@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-19T16:09:34+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Python Loops</title><link href="http://localhost:4000/py/2020/06/11/Python-01-loops.html" rel="alternate" type="text/html" title="Python Loops" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-01-loops</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-01-loops.html">&lt;h1 id=&quot;range-function&quot;&gt;Range Function&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-09T17:31:45+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Writing Academic Works</title><link href="http://localhost:4000/musings/2023/05/09/Academic_works.html" rel="alternate" type="text/html" title="Writing Academic Works" /><published>2023-05-09T00:00:00+02:00</published><updated>2023-05-09T00:00:00+02:00</updated><id>http://localhost:4000/musings/2023/05/09/Academic_works</id><content type="html" xml:base="http://localhost:4000/musings/2023/05/09/Academic_works.html">&lt;h1 id=&quot;learning-the-hard-way&quot;&gt;Learning the hard way&lt;/h1&gt;
+
+&lt;p&gt;I explored quite a number of tutorial, books and online material to grapple with one toughest question of life - How to put answers or thoughts in words ? Despite quite a lot of effort and a never ending feeling of insufficiency, I started writing my thoughts on paper. Is the writing grammatically correct ? I am writing to the standards where people will judge me based on Writing is all you go through. Are their spelling mistakes which are blatant to everyone’s eye.  These questions lead me being a very self-critical about myself. These intriguing questions even lead me to Wittingstein theories[1] of words being symbolic representations of pictures in the mind. So, Can I imagine every concept in terms of pictures ? How do I visualise a math equation or a matrix representation in the visual form ? Too many questions to choke myself to the point where I failed to even begin jotting down.&lt;/p&gt;
+
+&lt;p&gt;Writing is process of traversing your network of thoughts in 1 dimensional order (except Tables and plots can be 2D :-)).  The reader seeks to read the text in order to understand an academic experiment. Thereby understand the evaluation results achieved in a particular settings. First most, it is important for the writer to show the importance of the experiment in order to motivate the reader about the presented work and persuade him to actual understand the method being presented. The readers are usually lost with too much of new information presented in terms of figures and novel terms at the onset of the paper. The writer has a responsibility to present his work in lucid way by navigating the reader in his network of ideas without losing the sight of bird’s eye view of the map. The biggest hurdle of any scientific work is to go through existing literature which are written in different style and explain similar concepts in distinct way. The comprehension of various ideas and synthesis using common threads take enormous toll on the mental dashboard. The true value of any text is a function of reader prior knowledge and its relevance to reader community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2023/2023_05_09_relevance.png&quot; alt=&quot;v=Relevance(Reader,Text)&quot; title=&quot;&quot; height=&quot;20%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Does writing about topics which have no economic or scientific value is worth a read in today’s attention economy …&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jstor.org/stable/2183303&quot;&gt;Keyt, D. (1964). Wittgenstein’s Picture Theory of Language. The Philosophical Review, 73(4), 493–511.&lt;/a&gt;, https://doi.org/10.2307/2183303&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="academic" /><summary type="html">Learning the hard way</summary></entry><entry><title type="html">Python functions</title><link href="http://localhost:4000/py/2020/06/11/Python-02-functions.html" rel="alternate" type="text/html" title="Python functions" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-02-functions</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-02-functions.html">&lt;p&gt;Fruitful functions&lt;/p&gt;
+
+&lt;p&gt;The defining functions:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def area(radius):
+    return 3.14159 * radius * radius
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Fruitful functions</summary></entry><entry><title type="html">Python Loops</title><link href="http://localhost:4000/py/2020/06/11/Python-01-loops.html" rel="alternate" type="text/html" title="Python Loops" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-01-loops</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-01-loops.html">&lt;h1 id=&quot;range-function&quot;&gt;Range Function&lt;/h1&gt;
 
 &lt;h1 id=&quot;for-loop&quot;&gt;For Loop&lt;/h1&gt;
 
@@ -46,13 +66,7 @@ You can run the interpreter in inline mode or script mode.&lt;/p&gt;
 - Idle
 - Sublime-Text
 - Atom
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+). You can run the interpreter in inline mode or script mode.</summary></entry><entry><title type="html">Python functions</title><link href="http://localhost:4000/py/2020/06/11/Python-02-functions.html" rel="alternate" type="text/html" title="Python functions" /><published>2020-06-11T00:00:00+02:00</published><updated>2020-06-11T00:00:00+02:00</updated><id>http://localhost:4000/py/2020/06/11/Python-02-functions</id><content type="html" xml:base="http://localhost:4000/py/2020/06/11/Python-02-functions.html">&lt;p&gt;Fruitful functions&lt;/p&gt;
-
-&lt;p&gt;The defining functions:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def area(radius):
-    return 3.14159 * radius * radius
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Fruitful functions</summary></entry><entry><title type="html">Incompetence is a state not permanence</title><link href="http://localhost:4000/musings/2019/05/10/musings-incompetence.html" rel="alternate" type="text/html" title="Incompetence is a state not permanence" /><published>2019-05-10T00:00:00+02:00</published><updated>2019-05-10T00:00:00+02:00</updated><id>http://localhost:4000/musings/2019/05/10/musings-incompetence</id><content type="html" xml:base="http://localhost:4000/musings/2019/05/10/musings-incompetence.html">&lt;p&gt;In a given limited time, we always wonder how can we excel in different areas at the same time.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;py&quot;]" /><category term="Python" /><summary type="html">Python is high-level language. The python code is interpreted into machine-level code by python interpreter ( version 2.+ or 3.+). You can run the interpreter in inline mode or script mode.</summary></entry><entry><title type="html">Incompetence is a state not permanence</title><link href="http://localhost:4000/musings/2019/05/10/musings-incompetence.html" rel="alternate" type="text/html" title="Incompetence is a state not permanence" /><published>2019-05-10T00:00:00+02:00</published><updated>2019-05-10T00:00:00+02:00</updated><id>http://localhost:4000/musings/2019/05/10/musings-incompetence</id><content type="html" xml:base="http://localhost:4000/musings/2019/05/10/musings-incompetence.html">&lt;p&gt;In a given limited time, we always wonder how can we excel in different areas at the same time.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;How can I learn good writing skills ?&lt;/li&gt;
@@ -416,32 +430,4 @@ and Generative Models&lt;/a&gt;&lt;/li&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1803.08971.pdf&quot;&gt;COMPUTATIONAL POWER AND THE SOCIAL IMPACT OF ARTIFICIAL INTELLIGENCE&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="computational impact" /><category term="block-chain" /><category term="deep learning" /><summary type="html">References:</summary></entry><entry><title type="html">Bayesian Neural Networks</title><link href="http://localhost:4000/blog/pgm/2018/08/07/bnn.html" rel="alternate" type="text/html" title="Bayesian Neural Networks" /><published>2018-08-07T00:00:00+02:00</published><updated>2018-08-07T00:00:00+02:00</updated><id>http://localhost:4000/blog/pgm/2018/08/07/bnn</id><content type="html" xml:base="http://localhost:4000/blog/pgm/2018/08/07/bnn.html">&lt;p&gt;Bayesian Neural Networks uses Proabibilitic Model along with Neural Networks.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Probabilistic Programming Libraries:
-    &lt;ul&gt;
-      &lt;li&gt;PyMC3, Edward, Stan&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Bayes Law &lt;br /&gt;
-  &lt;script type=&quot;math/tex&quot;&gt;Posterior = \frac {likelihood * prior}{Normalizing Constant }&lt;/script&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- IN N Dimensional simplex noise, the squared kernel summation radius $r^2$ is $\frac 1 2$
-for all values of N. This is because the edge length of the N-simplex $s = \sqrt {\frac {N} {N + 1}}$
-divides out of the N-simplex height $h = s \sqrt {\frac {N + 1} {2N}}$.
-The kerel summation radius $r$ is equal to the N-simplex height $h$.
-
-$$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
- --&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1506.02142&quot; title=&quot;Dropout&quot;&gt;Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1805.03901.pdf&quot; title=&quot;Loss - Calibrated&quot;&gt;Loss-Calibrated Approximate Inference in Bayesian Neural Networks&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1511.02680_&quot;&gt;Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1505.05424&quot;&gt;Weight Uncertainty in Neural Networks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1801.07710.pdf&quot;&gt;Study of Bayesian Neural Networks&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;pgm&quot;]" /><category term="Deep learning" /><category term="Bayesian Neural Networks" /><summary type="html">Bayesian Neural Networks uses Proabibilitic Model along with Neural Networks.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="computational impact" /><category term="block-chain" /><category term="deep learning" /><summary type="html">References:</summary></entry></feed>
