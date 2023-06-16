@@ -1,0 +1,99 @@
+
+<!-- Design By foolishdeveloper.com  -->
+<!DOCTYPE html> 
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+body{
+    margin-top: 200px;
+       height: 100vh;
+ 
+    background: #2477b7;
+}
+ #clockDisplay{
+	margin:0px auto;
+	width: 800px;
+	background-color: #1E1E1E;
+	border: 5px solid #ededee;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+	padding: 6px;
+    height: 200px;
+	color: #2ed9f7;
+    padding-top: 60px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:60px;
+	font-width:bold;
+	text-align: center;
+   
+	letter-spacing: 2px;
+	
+}
+    </style>
+</head>
+<body>
+	  <h2 align='center'>  24 hour || 8 hour  </h2>
+    <div id="clockDisplay" class="clockStyle"></div>
+
+  <script>
+  function renderTime(){
+	var currentTime = new Date();
+	var diem = "";//"AM";
+	var h = currentTime.getHours();
+	var m = currentTime.getMinutes();
+	var s = currentTime.getSeconds();
+	
+	var total_seconds = ((h * 60) + m ) * 60 + s ;
+
+	var new_s = total_seconds % 100;
+	var t_m = Math.floor(((total_seconds)/100));
+	var new_m = t_m % 108;
+	var new_h = Math.floor(t_m/108);
+
+	if(new_h < 10){
+		new_h = "0" + new_h;
+	}
+	if(new_m < 10){
+		new_m = "0" + new_m;
+	}
+	if(new_s < 10){
+		new_s = "0" + new_s;
+	}
+
+	if(h < 10){
+		h = "0" + h;
+	}
+	if(m < 10){
+		m = "0" + m;
+	}
+	if(s < 10){
+		s = "0" + s;
+	}
+
+
+
+	// if(h == 0){
+	// 	h = 12;
+	// }else if(h > 12){
+	// 	h = h - 12;
+	// 	diem = "PM"
+	// }
+
+	var myClock = document.getElementById('clockDisplay');
+	myClock.textContent =  h + ":" + m + ":" + s + " " + diem + " || " + new_h + ":" + new_m + ":" + new_s ;
+
+
+
+	setTimeout('renderTime()', 1000); 
+}
+renderTime();
+  </script>
+
+</body>
+</html>
+
+
