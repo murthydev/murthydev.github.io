@@ -1,8 +1,9 @@
----
+<!-- ---
 layout: category
 title: HumanPose
 category: pose
----
+sidebar_link: false
+--- -->
 
 * TOC
 {:toc}

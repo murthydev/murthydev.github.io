@@ -5,6 +5,10 @@ sidebar_link: true
 ---
 
 <small>
+
+- **In-Domain Inversion for Improved 3D Face Alignment on Asymmetrical Expressions.** Díaz Barros, Jilliam María, Rambach, Jason, Murthy, Pramod, and Stricker, Didier. Int. Conf. on Automatic Face and
+Gesture Recognition (FG), 2024. [[PDF]](https://www.dfki.de/fileadmin/user_upload/import/14791_FG2024_ParFace.pdf)
+
 - **DiveNet: Dive Action Localization and Physical Parameter Extraction for High Performance Training.** Pramod Murthy, Bertram Taetz, Arpit Lekhra, and Didier Stricker.  *IEEE Access*, DOI: 10.1109/ACCESS.2023.3265595, 2023.  [[PDF]](https://ieeexplore.ieee.org/document/10097490)
 
 - **Low-latency Detection of Diving Sports Movements in Training Videos.** Pramod Murthy, Bertram Taetz, and Didier Stricker. *20th Spring School "Technologies in Competitive Sports", Leipzig, Germany*, September 2022. [[PDF] (German)](https://sport-iat.de/fileadmin/user_upload/Veranstaltungen/FJS-2022/Abstracts/Murthy.pdf)

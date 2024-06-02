@@ -8,18 +8,14 @@ title: Home
 
 Are you looking for an expert to bring your innovative ideas to life? 
 
-With a strong acedemic background and professional developer experience, I aim to deliver top-notch solutions in AI product development.
+With a strong acedemic background and professional developer experience, I aim to deliver top-notch solutions with my AI product development experience.
 
-**Academic Excellence and Cutting-Edge Research:**
+###### Professional Highlights: 
 - Ph.D. in Human Motion Analysis at Augmented Vision, DFKI, RPTU Kaiserslautern, Germany.
 - Deep expertise in Image and Natural Language Understanding.
 - Published research in peer-reviewed journals and conferences.
-
-**Professional Experience:**
 - Extensive background in mobile application development across various platforms.
 - Proven track record of delivering high-quality, robust mobile solutions.
-
-**Passionate About Innovation:**
 - Dedicated to developing novel models using statistical learning techniques.
 - Strong focus on creating state-of-the-art solutions tailored to your needs.
 
