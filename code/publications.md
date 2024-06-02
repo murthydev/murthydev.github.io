@@ -4,7 +4,7 @@ title: Publications
 sidebar_link: true
 ---
 
-
+<small>
 - **DiveNet: Dive Action Localization and Physical Parameter Extraction for High Performance Training.** Pramod Murthy, Bertram Taetz, Arpit Lekhra, and Didier Stricker.  *IEEE Access*, DOI: 10.1109/ACCESS.2023.3265595, 2023.  [[PDF]](https://ieeexplore.ieee.org/document/10097490)
 
 - **Low-latency Detection of Diving Sports Movements in Training Videos.** Pramod Murthy, Bertram Taetz, and Didier Stricker. *20th Spring School "Technologies in Competitive Sports", Leipzig, Germany*, September 2022. [[PDF] (German)](https://sport-iat.de/fileadmin/user_upload/Veranstaltungen/FJS-2022/Abstracts/Murthy.pdf)
@@ -23,3 +23,4 @@ sidebar_link: true
 
 - **3D Human Pose Tracking inside Car using Single RGB Spherical Camera.** Pramod Murthy, Onorina Kovalenko, Ahmed Elhayek, Christiano Gava, and Didier Stricker. *Computer Science In Cars Symposium (CSCS), Springer*, 2017. [[PDF]](https://www.dfki.de/fileadmin/user_upload/import/9349_Murthy_2017_ACM_CSCS_3D_Human_Pose_Spherical.pdf) [[Video]](http://av.dfki.de/~murthy/demos/theta_demo.mp4)
 
+<small/>
