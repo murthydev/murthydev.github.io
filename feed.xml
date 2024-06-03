@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-02T21:01:02+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Writing Academic Works</title><link href="http://localhost:4000/musings/2023/05/09/Academic_works.html" rel="alternate" type="text/html" title="Writing Academic Works" /><published>2023-05-09T00:00:00+02:00</published><updated>2023-05-09T00:00:00+02:00</updated><id>http://localhost:4000/musings/2023/05/09/Academic_works</id><content type="html" xml:base="http://localhost:4000/musings/2023/05/09/Academic_works.html">&lt;h1 id=&quot;learning-the-hard-way&quot;&gt;Learning the hard way&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-03T17:13:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Generative AI Intro</title><link href="http://localhost:4000/musings/2024/05/20/GenAI.html" rel="alternate" type="text/html" title="Generative AI Intro" /><published>2024-05-20T00:00:00+02:00</published><updated>2024-05-20T00:00:00+02:00</updated><id>http://localhost:4000/musings/2024/05/20/GenAI</id><content type="html" xml:base="http://localhost:4000/musings/2024/05/20/GenAI.html">&lt;h1 id=&quot;what-is-generative-ai-&quot;&gt;What is Generative AI ?&lt;/h1&gt;
+
+&lt;p&gt;Generative AI refers to a class of artificial intelligence models designed to create new content or data that is similar to what they have been trained on. Unlike traditional AI, which primarily focuses on recognizing patterns and making predictions based on existing data, generative AI can produce novel outputs, such as text, images, music, or even code. Here are some key aspects of generative AI:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Types of Generative Models:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Generative Adversarial Networks (GANs):&lt;/strong&gt; These models consist of two neural networks, a generator and a discriminator, which are trained together. The generator creates new data, and the discriminator evaluates its authenticity. Over time, the generator becomes adept at producing realistic data.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Variational Autoencoders (VAEs):&lt;/strong&gt; VAEs learn to encode data into a lower-dimensional space and then decode it back to the original space. They can generate new data by sampling from the learned latent space.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Transformers:&lt;/strong&gt; Widely used in natural language processing, transformers can generate text by predicting the next word or token in a sequence. Models like GPT-3 (Generative Pre-trained Transformer 3) are based on this architecture.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Applications:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Text Generation:&lt;/strong&gt; Models like GPT-3 can write essays, articles, poems, and even code.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Image Generation:&lt;/strong&gt; GANs can create realistic images of people, objects, and scenes. Applications include generating art, designing products, and creating virtual environments.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Music and Audio:&lt;/strong&gt; Generative AI can compose music, create sound effects, and even generate human-like speech.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Game Design:&lt;/strong&gt; AI can generate game levels, characters, and narratives, enhancing the gaming experience.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Challenges:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Quality and Coherence:&lt;/strong&gt; Ensuring the generated content is coherent and of high quality.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ethical Concerns:&lt;/strong&gt; Addressing issues like copyright infringement, the creation of fake news or deepfakes, and potential biases in the generated content.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Computational Resources:&lt;/strong&gt; Training generative models often requires significant computational power and large datasets.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recent Developments:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Multimodal Models:&lt;/strong&gt; Newer generative AI models can handle multiple types of data simultaneously, such as text, images, and audio, leading to more integrated and versatile applications.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Fine-tuning and Customization:&lt;/strong&gt; Techniques for fine-tuning generative models on specific datasets allow for more customized and application-specific outputs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Generative AI is transforming various industries by automating creative processes, enhancing human creativity, and enabling new forms of content creation.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="academic" /><summary type="html">What is Generative AI ?</summary></entry><entry><title type="html">Writing Academic Works</title><link href="http://localhost:4000/musings/2023/05/09/Academic_works.html" rel="alternate" type="text/html" title="Writing Academic Works" /><published>2023-05-09T00:00:00+02:00</published><updated>2023-05-09T00:00:00+02:00</updated><id>http://localhost:4000/musings/2023/05/09/Academic_works</id><content type="html" xml:base="http://localhost:4000/musings/2023/05/09/Academic_works.html">&lt;h1 id=&quot;learning-the-hard-way&quot;&gt;Learning the hard way&lt;/h1&gt;
 
 &lt;p&gt;I explored quite a number of tutorial, books and online material to grapple with one toughest question of life - How to put answers or thoughts in words ? Despite quite a lot of effort and a never ending feeling of insufficiency, I started writing my thoughts on paper. Is the writing grammatically correct ? I am writing to the standards where people will judge me based on Writing is all you go through. Are their spelling mistakes which are blatant to everyone’s eye.  These questions lead me being a very self-critical about myself. These intriguing questions even lead me to Wittingstein theories[1] of words being symbolic representations of pictures in the mind. So, Can I imagine every concept in terms of pictures ? How do I visualise a math equation or a matrix representation in the visual form ? Too many questions to choke myself to the point where I failed to even begin jotting down.&lt;/p&gt;
 
@@ -426,8 +461,4 @@ How Important Is a Neuron?
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1810.04261.pdf&quot;&gt;A Tale of Three Probabilistic Families: Discriminative, Descriptive
 and Generative Models&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;pgm&quot;]" /><category term="Generative" /><category term="Discriminative" /><category term="Descriptive" /><category term="PGM" /><summary type="html">References:</summary></entry><entry><title type="html">Computational Power and Socail Impact of AI and Block Chain</title><link href="http://localhost:4000/musings/2018/08/07/computation-impact.html" rel="alternate" type="text/html" title="Computational Power and Socail Impact of AI and Block Chain" /><published>2018-08-07T00:00:00+02:00</published><updated>2018-08-07T00:00:00+02:00</updated><id>http://localhost:4000/musings/2018/08/07/computation-impact</id><content type="html" xml:base="http://localhost:4000/musings/2018/08/07/computation-impact.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1803.08971.pdf&quot;&gt;COMPUTATIONAL POWER AND THE SOCIAL IMPACT OF ARTIFICIAL INTELLIGENCE&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="computational impact" /><category term="block-chain" /><category term="deep learning" /><summary type="html">References:</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;pgm&quot;]" /><category term="Generative" /><category term="Discriminative" /><category term="Descriptive" /><category term="PGM" /><summary type="html">References:</summary></entry></feed>
