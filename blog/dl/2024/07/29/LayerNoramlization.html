@@ -11,7 +11,7 @@
 
   <title>
     
-      Sample-Jupyter-Notebook &middot; Pramod Murthy
+      Batch and Layer normalization &middot; Pramod Murthy
     
   </title>
 
@@ -443,11 +443,11 @@
 
     <main class="container">
       <header>
-  <h1 class="post-title">Sample-Jupyter-Notebook</h1>
+  <h1 class="post-title">Batch and Layer normalization</h1>
 </header>
 <div class="content">
   <div class="post-meta">
-  <span class="post-date">30 Jul 2018</span>
+  <span class="post-date">29 Jul 2024</span>
   <span class="post-categories">
     
       &bull;
@@ -462,23 +462,100 @@
         </a>
       
     
+      &bull;
+
+      
+      
+      
+
+      
+        DL
+      
+    
   </span>
 </div>
   
 
   <div class="post-body">
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello World"</span><span class="p">)</span>
+    <p><strong>Layer Normalization and Group Normalization</strong></p>
+
+<h3 id="layer-normalization">Layer Normalization</h3>
+
+<p>Layer normalization is a technique used to normalize the activations of a neural network across all channels for each individual observation. This method is particularly useful for stabilizing the learning process and improving the convergence speed of the network. Unlike batch normalization, which normalizes across the batch dimension, layer normalization operates on each observation independently, making it more suitable for recurrent neural networks or scenarios where batch sizes are small.</p>
+
+<p>In layer normalization, the mean and variance are computed across the features of each observation, and the normalized activations are scaled and shifted using learnable parameters <script type="math/tex">\gamma</script> (scale) and <script type="math/tex">\beta</script> (shift). This process ensures that the normalized activations have a mean of zero and a variance of one, which helps in maintaining the stability of the network during training.</p>
+
+<h3 id="group-normalization">Group Normalization</h3>
+
+<p>Group normalization (GN) is another normalization technique that divides the channels of the input data into groups and normalizes the features within each group independently. This method is designed to address the limitations of batch normalization, especially when the batch size is small. Unlike batch normalization, GN does not rely on the batch dimension and is thus invariant to batch sizes, making it more stable and effective in various training scenarios.</p>
+
+<p>The process of group normalization involves the following steps:</p>
+
+<ol>
+  <li><strong>Grouping Channels</strong>: The channels of the input data are divided into predefined groups.</li>
+  <li><strong>Computing Statistics</strong>: For each group, the mean and variance are computed.</li>
+  <li><strong>Normalization</strong>: The activations within each group are normalized by subtracting the group mean and dividing by the group standard deviation.</li>
+  <li><strong>Scaling and Shifting</strong>: The normalized activations are then scaled and shifted using learnable parameters <script type="math/tex">\gamma</script> and <script type="math/tex">\beta</script>.</li>
+</ol>
+
+<p>Group normalization can be seen as a generalization of layer normalization and instance normalization:</p>
+<ul>
+  <li><strong>Layer Normalization</strong>: When all channels are grouped together into a single group.</li>
+  <li><strong>Instance Normalization</strong>: When each channel is treated as a separate group.</li>
+</ul>
+
+<h3 id="applications-and-benefits">Applications and Benefits</h3>
+
+<ul>
+  <li><strong>Layer Normalization</strong>: Often used in recurrent neural networks and transformers, where the independence from batch size is crucial.</li>
+  <li><strong>Group Normalization</strong>: Particularly useful in convolutional neural networks (CNNs) when training with small batch sizes, as it provides more stable training and faster convergence compared to batch normalization.</li>
+</ul>
+
+<h3 id="example-of-group-normalization-in-matlab">Example of Group Normalization in MATLAB</h3>
+
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">% Create a group normalization layer that normalizes incoming data across three groups of channels</span>
+<span class="n">layer</span> <span class="o">=</span> <span class="n">groupNormalizationLayer</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">'Name'</span><span class="p">,</span> <span class="s1">'groupnorm'</span><span class="p">);</span>
+
+<span class="c1">% Example of including a group normalization layer in a layer array</span>
+<span class="n">layers</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">imageInputLayer</span><span class="p">([</span><span class="mi">28</span> <span class="mi">28</span> <span class="mi">3</span><span class="p">])</span>
+    <span class="n">convolution2dLayer</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+    <span class="n">groupNormalizationLayer</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+    <span class="n">reluLayer</span>
+    <span class="n">maxPooling2dLayer</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">'Stride'</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="n">fullyConnectedLayer</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+    <span class="n">softmaxLayer</span>
+<span class="p">];</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello World
-</code></pre></div></div>
+<p>In summary, both layer normalization and group normalization are effective techniques for normalizing activations in neural networks, each with its specific use cases and advantages. Layer normalization is ideal for scenarios where batch size independence is required, while group normalization excels in stabilizing training for CNNs with small batch sizes[1][2].</p>
 
+<p>Citations:
+[1] https://www.mathworks.com/help/deeplearning/ref/nnet.cnn.layer.groupnormalizationlayer.html
+[2] https://paperswithcode.com/method/group-normalization
+[3] https://www.baeldung.com/cs/group-normalization
+[4] https://towardsdatascience.com/different-normalization-layers-in-deep-learning-1a7214ff71d6?gi=b8778cb8e35c
+[5] https://www.pinecone.io/learn/batch-layer-normalization/
+[6] https://www.linkedin.com/pulse/understanding-batch-normalization-layer-group-implementing-pasha-s
+[7] https://towardsdatascience.com/what-is-group-normalization-45fe27307be7
+[8] https://www.youtube.com/watch?v=1JmZ5idFcVI</p>
 
     
 
 
 
 <div class="post-tags">
+  
+    
+    <a href="/tags.html#academic">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">academic</span>
+    </a>
   
 </div>
   </div>
@@ -506,15 +583,6 @@
     
       <li>
         <h3>
-          <a href="/blog/dl/2024/07/29/LayerNoramlization.html">
-            Batch and Layer normalization
-            <small>29 Jul 2024</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
           <a href="/blog/2024/07/29/Attention.html">
             Generative AI Intro
             <small>29 Jul 2024</small>
@@ -527,6 +595,15 @@
           <a href="/musings/2024/05/20/GenAI.html">
             Generative AI Intro
             <small>20 May 2024</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/musings/2023/05/09/Academic_works.html">
+            Writing Academic Works
+            <small>09 May 2023</small>
           </a>
         </h3>
       </li>

@@ -11,7 +11,7 @@
 
   <title>
     
-      Embedded Vision &middot; Pramod Murthy
+      Generative AI Intro &middot; Pramod Murthy
     
   </title>
 
@@ -57,7 +57,7 @@
 </head>
 
 
-  <body class="category">
+  <body class="post">
 
     <div id="sidebar">
   <nav id="sidebar-nav-links"> 
@@ -118,20 +118,32 @@
   
 
   
+    
+  
+
+  
+    
+  
+
+  
 
   
 
   
     
       <a class="page-link "
-          href="/projects.html">Projects</a>
+          href="/category/projects.html">Projects</a>
     
   
 
   
     
       <a class="page-link "
-          href="/publications.html">Publications</a>
+          href="/category/publications.html">Papers</a>
+    
+  
+
+  
     
   
 
@@ -160,7 +172,7 @@
   
     
       <a class="category-link "
-          href="/category/blog.html">Tech</a>
+          href="/category/blog.html">Blog</a>
     
   
 
@@ -170,8 +182,19 @@
 
   
     
-      <a class="category-link  active"
-          href="/embedded-vision.html">Embedded Vision</a>
+      <a class="category-link "
+          href="/category/embedded-vision%20copy.html">Edge AI</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/gen-ai.html">Gen AI</a>
+    
+  
+
+  
     
   
 
@@ -199,6 +222,10 @@
     
       <a class="category-link "
           href="/category/spiritual-musings.html">Musings</a>
+    
+  
+
+  
     
   
 
@@ -416,166 +443,140 @@
 
     <main class="container">
       <header>
-  <h1 class="page-title">Embedded Vision</h1>
+  <h1 class="post-title">Generative AI Intro</h1>
 </header>
 <div class="content">
+  <div class="post-meta">
+  <span class="post-date">29 Jul 2024</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/blog.html">
+          blog
+        </a>
+      
+    
+  </span>
+</div>
   
-  <ul id="markdown-toc">
-  <li><a href="#emdl" id="markdown-toc-emdl">EMDL</a>    <ul>
-      <li><a href="#papers" id="markdown-toc-papers">Papers</a>        <ul>
-          <li><a href="#models" id="markdown-toc-models">Models</a></li>
-          <li><a href="#frameworks" id="markdown-toc-frameworks">Frameworks</a></li>
-          <li><a href="#quantization-techniqes" id="markdown-toc-quantization-techniqes">Quantization Techniqes</a></li>
-          <li><a href="#pruning-techniques" id="markdown-toc-pruning-techniques">Pruning Techniques</a></li>
-          <li><a href="#approximation" id="markdown-toc-approximation">Approximation</a></li>
-          <li><a href="#design-space-exploration" id="markdown-toc-design-space-exploration">Design Space Exploration</a></li>
-          <li><a href="#cnn-to-fpgas" id="markdown-toc-cnn-to-fpgas">CNN-to-FPGAs</a></li>
-          <li><a href="#survey" id="markdown-toc-survey">Survey</a></li>
-        </ul>
-      </li>
-      <li><a href="#libraries" id="markdown-toc-libraries">Libraries</a>        <ul>
-          <li><a href="#general" id="markdown-toc-general">General</a></li>
-          <li><a href="#web" id="markdown-toc-web">Web</a></li>
-        </ul>
-      </li>
-      <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a>        <ul>
-          <li><a href="#general-1" id="markdown-toc-general-1">General</a></li>
-        </ul>
-      </li>
+
+  <div class="post-body">
+    <h1 id="what-is-generative-ai-">What is Generative AI ?</h1>
+
+<p>Generative AI refers to a class of artificial intelligence models designed to create new content or data that is similar to what they have been trained on. Unlike traditional AI, which primarily focuses on recognizing patterns and making predictions based on existing data, generative AI can produce novel outputs, such as text, images, music, or even code. Here are some key aspects of generative AI:</p>
+
+<ol>
+  <li><strong>Types of Generative Models:</strong>
+    <ul>
+      <li><strong>Generative Adversarial Networks (GANs):</strong> These models consist of two neural networks, a generator and a discriminator, which are trained together. The generator creates new data, and the discriminator evaluates its authenticity. Over time, the generator becomes adept at producing realistic data.</li>
+      <li><strong>Variational Autoencoders (VAEs):</strong> VAEs learn to encode data into a lower-dimensional space and then decode it back to the original space. They can generate new data by sampling from the learned latent space.</li>
+      <li><strong>Transformers:</strong> Widely used in natural language processing, transformers can generate text by predicting the next word or token in a sequence. Models like GPT-3 (Generative Pre-trained Transformer 3) are based on this architecture.</li>
     </ul>
   </li>
-</ul>
-
-<h1 id="emdl">EMDL</h1>
-
-<p>Embedded deep learning resources for computer vision.</p>
-
-<h2 id="papers">Papers</h2>
-
-<h3 id="models">Models</h3>
-<ol>
-  <li><a href="https://arxiv.org/abs/1704.04861">MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications</a> [arXiv ‘17, Google]</li>
-  <li><a href="https://arxiv.org/abs/1707.01083">ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices</a> [arXiv ‘17, Megvii]</li>
-  <li><a href="https://arxiv.org/pdf/1707.07012.pdf">NasNet: Learning Transferable Architectures for Scalable Image Recognition</a> [arXiv ‘17, Google]</li>
-  <li><a href="https://arxiv.org/abs/1711.09224">CondenseNet: An Efficient DenseNet using Learned Group Convolutions</a> [arXiv ‘17]</li>
-  <li><a href="https://arxiv.org/pdf/1801.04381.pdf">MobilenetV2: Inverted Residuals and Linear Bottlenecks: Mobile Networks for
-Classification, Detection and Segmentation</a> [arXiv ‘18, Google]</li>
-  <li><a href="https://arxiv.org/abs/1708.04728">DeepRebirth: Accelerating Deep Neural Network Execution on Mobile Devices</a> [AAAI’18, Samsung]</li>
+  <li><strong>Applications:</strong>
+    <ul>
+      <li><strong>Text Generation:</strong> Models like GPT-3 can write essays, articles, poems, and even code.</li>
+      <li><strong>Image Generation:</strong> GANs can create realistic images of people, objects, and scenes. Applications include generating art, designing products, and creating virtual environments.</li>
+      <li><strong>Music and Audio:</strong> Generative AI can compose music, create sound effects, and even generate human-like speech.</li>
+      <li><strong>Game Design:</strong> AI can generate game levels, characters, and narratives, enhancing the gaming experience.</li>
+    </ul>
+  </li>
+  <li><strong>Challenges:</strong>
+    <ul>
+      <li><strong>Quality and Coherence:</strong> Ensuring the generated content is coherent and of high quality.</li>
+      <li><strong>Ethical Concerns:</strong> Addressing issues like copyright infringement, the creation of fake news or deepfakes, and potential biases in the generated content.</li>
+      <li><strong>Computational Resources:</strong> Training generative models often requires significant computational power and large datasets.</li>
+    </ul>
+  </li>
+  <li><strong>Recent Developments:</strong>
+    <ul>
+      <li><strong>Multimodal Models:</strong> Newer generative AI models can handle multiple types of data simultaneously, such as text, images, and audio, leading to more integrated and versatile applications.</li>
+      <li><strong>Fine-tuning and Customization:</strong> Techniques for fine-tuning generative models on specific datasets allow for more customized and application-specific outputs.</li>
+    </ul>
+  </li>
 </ol>
 
-<h3 id="frameworks">Frameworks</h3>
-<ol>
-  <li><a href="https://www.sigmobile.org/mobisys/2017/accepted.php">DeepMon: Mobile GPU-based Deep Learning Framework for Continuous Vision Applications</a> [MobiSys ‘17]</li>
-  <li><a href="http://fahim-kawsar.net/papers/Mathur.MobiSys2017-Camera.pdf">DeepEye: Resource Efficient Local Execution of Multiple Deep Vision Models using Wearable Commodity Hardware</a> [MobiSys ‘17]</li>
-  <li><a href="https://arxiv.org/abs/1706.00878">MobiRNN: Efficient Recurrent Neural Network Execution on Mobile GPU</a> [EMDL ‘17]</li>
-  <li><a href="http://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4278&amp;context=sis_research">DeepSense: A GPU-based deep convolutional neural network framework on commodity mobile devices</a> [WearSys ‘16]</li>
-  <li><a href="http://niclane.org/pubs/deepx_ipsn.pdf">DeepX: A Software Accelerator for Low-Power Deep Learning Inference on Mobile Devices</a> [IPSN ‘16]</li>
-  <li><a href="https://arxiv.org/abs/1602.01528">EIE: Efficient Inference Engine on Compressed Deep Neural Network</a> [ISCA ‘16]</li>
-  <li><a href="http://haneul.github.io/papers/mcdnn.pdf">MCDNN: An Approximation-Based Execution Framework for Deep Stream Processing Under Resource Constraints</a> [MobiSys ‘16]</li>
-  <li><a href="http://niclane.org/pubs/dxtk_mobicase.pdf">DXTK: Enabling Resource-efficient Deep Learning on Mobile and Embedded Devices with the DeepX Toolkit</a> [MobiCASE ‘16]</li>
-  <li><a href="http://niclane.org/pubs/sparsesep_sensys.pdf">Sparsification and Separation of Deep Learning Layers for Constrained Resource Inference on Wearables</a> [SenSys ’16]</li>
-  <li><a href="http://niclane.org/pubs/iotapp15_early.pdf">An Early Resource Characterization of Deep Learning on Wearables, Smartphones and Internet-of-Things Devices</a> [IoT-App ’15]</li>
-  <li><a href="https://arxiv.org/abs/1511.07376">CNNdroid: GPU-Accelerated Execution of Trained Deep Convolutional Neural Networks on Android</a> [MM ‘16]</li>
-  <li><a href="https://arxiv.org/abs/1711.08740">fpgaConvNet: A Toolflow for Mapping Diverse Convolutional Neural Networks on Embedded FPGAs</a> [NIPS ‘17]</li>
-</ol>
+<p>Generative AI is transforming various industries by automating creative processes, enhancing human creativity, and enabling new forms of content creation.</p>
 
-<h3 id="quantization-techniqes">Quantization Techniqes</h3>
-<ol>
-  <li><a href="https://arxiv.org/abs/1611.05402">The ZipML Framework for Training Models with End-to-End Low Precision: The Cans, the Cannots, and a Little Bit of Deep Learning</a> [ICML’17]</li>
-  <li><a href="https://arxiv.org/abs/1412.6115">Compressing Deep Convolutional Networks using Vector Quantization</a> [arXiv’14]</li>
-  <li><a href="https://arxiv.org/abs/1512.06473">Quantized Convolutional Neural Networks for Mobile Devices</a> [CVPR ‘16]</li>
-  <li><a href="https://arxiv.org/abs/1512.01322">Fixed-Point Performance Analysis of Recurrent Neural Networks</a> [ICASSP’16]</li>
-  <li><a href="https://arxiv.org/abs/1609.07061">Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations</a> [arXiv’16]</li>
-  <li><a href="https://arxiv.org/abs/1611.01600">Loss-aware Binarization of Deep Networks</a> [ICLR’17]</li>
-  <li><a href="https://arxiv.org/abs/1612.01543">Towards the Limit of Network Quantization</a> [ICLR’17]</li>
-  <li><a href="https://arxiv.org/abs/1702.00953">Deep Learning with Low Precision by Half-wave Gaussian Quantization</a> [CVPR’17]</li>
-  <li><a href="https://arxiv.org/abs/1706.02393">ShiftCNN: Generalized Low-Precision Architecture for Inference of Convolutional Neural Networks</a> [arXiv’17]</li>
-  <li><a href="https://openreview.net/forum?id=HJGXzmspb">Training and Inference with Integers in Deep Neural Networks</a> [ICLR’18]</li>
-</ol>
-
-<h3 id="pruning-techniques">Pruning Techniques</h3>
-<ol>
-  <li><a href="https://arxiv.org/abs/1506.02626">Learning both Weights and Connections for Efficient Neural Networks</a> [NIPS’15]</li>
-  <li><a href="https://arxiv.org/abs/1608.08710">Pruning Filters for Efficient ConvNets</a> [ICLR’17]</li>
-  <li><a href="https://arxiv.org/abs/1611.06440">Pruning Convolutional Neural Networks for Resource Efficient Inference</a> [ICLR’17]</li>
-  <li><a href="https://arxiv.org/abs/1702.04008">Soft Weight-Sharing for Neural Network Compression</a> [ICLR’17]</li>
-  <li><a href="https://arxiv.org/abs/1510.00149">Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding</a> [ICLR’16]</li>
-  <li><a href="https://arxiv.org/abs/1608.04493">Dynamic Network Surgery for Efficient DNNs</a> [NIPS’16]</li>
-  <li><a href="https://arxiv.org/abs/1611.05128">Designing Energy-Efficient Convolutional Neural Networks using Energy-Aware Pruning</a> [CVPR’17]</li>
-  <li><a href="https://arxiv.org/abs/1707.06342">ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression</a> [ICCV’17]</li>
-  <li><a href="https://arxiv.org/abs/1710.01878">To prune, or not to prune: exploring the efficacy of pruning for model compression</a> [ICLR’18]</li>
-</ol>
-
-<h3 id="approximation">Approximation</h3>
-<ol>
-  <li><a href="https://arxiv.org/abs/1411.4229">Efficient and Accurate Approximations of Nonlinear Convolutional Networks</a> [CVPR’15]</li>
-  <li><a href="https://arxiv.org/abs/1505.06798">Accelerating Very Deep Convolutional Networks for Classification and Detection</a> (Extended version of above one)</li>
-  <li><a href="https://arxiv.org/abs/1511.06067">Convolutional neural networks with low-rank regularization</a> [arXiv’15]</li>
-  <li><a href="https://arxiv.org/abs/1404.0736">Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation</a> [NIPS’14]</li>
-  <li><a href="https://arxiv.org/abs/1511.06530">Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications</a> [ICLR’16]</li>
-  <li><a href="https://arxiv.org/abs/1712.02427">High performance ultra-low-precision convolutions on mobile devices</a> [NIPS’17]</li>
-</ol>
-
-<h3 id="design-space-exploration">Design Space Exploration</h3>
-<ol>
-  <li><a href="https://arxiv.org/abs/1804.03230">NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications</a> [arXiv’18, Google]</li>
-  <li><a href="https://arxiv.org/abs/1803.09492">Latency and Throughput Characterization of Convolutional Neural Networks for Mobile Computer Vision</a> [MMSys’18]</li>
-</ol>
-
-<h3 id="cnn-to-fpgas">CNN-to-FPGAs</h3>
-<ol>
-  <li><a href="https://arxiv.org/abs/1711.08740">fpgaConvNet: A Toolflow for Mapping Diverse Convolutional Neural Networks on Embedded FPGAs</a> [NIPS ‘17]</li>
-</ol>
-
-<h3 id="survey">Survey</h3>
-<ol>
-  <li><a href="https://arxiv.org/abs/1710.09282">A Survey of Model Compression and Acceleration for Deep Neural Networks</a> [arXiv ‘17]</li>
-</ol>
-
-<h2 id="libraries">Libraries</h2>
-
-<h3 id="general">General</h3>
-
-<ol>
-  <li><a href="https://github.com/XiaoMi/mace">XiaoMi/mace: MACE is a deep learning inference framework optimized for mobile heterogeneous computing platforms.</a></li>
-  <li><a href="https://github.com/Tencent/ncnn">Tencent/ncnn: ncnn is a high-performance neural network inference framework optimized for the mobile platform</a></li>
-  <li><a href="https://github.com/baidu/mobile-deep-learning">baidu/mobile-deep-learning: This research aims at simply deploying CNN(Convolutional Neural Network) on mobile devices, with low complexity and high speed.</a></li>
-  <li><a href="https://github.com/ARM-software/ComputeLibrary">ARM-software/ComputeLibrary: The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies</a>, <a href="https://developer.arm.com/technologies/compute-library">Intro</a></li>
-  <li><a href="https://developer.apple.com/documentation/coreml">Apple CoreML</a></li>
-  <li><a href="https://github.com/xmartlabs/Bender">xmartlabs/Bender: Easily craft fast Neural Networks on iOS! Use TensorFlow models. Metal under the hood.</a></li>
-  <li><a href="https://developer.qualcomm.com/software/snapdragon-neural-processing-engine">Snapdragon Neural Processing Engine</a></li>
-  <li><a href="https://github.com/Microsoft/ELL">Microsoft Embedded Learning Library</a></li>
-  <li><a href="https://github.com/dmlc/mxnet/tree/master/amalgamation">MXNet Amalgamation</a></li>
-  <li><a href="https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/android">TensorFlow on Android</a></li>
-  <li><a href="https://www.tensorflow.org/mobile/tflite/">TensorFlow Lite</a></li>
-  <li><a href="https://github.com/OAID/Tengine">OAID/Tengine: Tengine is a lite, high performance, modular inference engine for embedded device</a></li>
-  <li><a href="https://nesl.github.io/RSTensorFlow/">RSTensorFlow: GPU Accelerated TensorFlow for Commodity Android Devices</a></li>
-</ol>
-
-<h3 id="web">Web</h3>
-<ol>
-  <li><a href="https://github.com/mil-tokyo/webdnn">mil-tokyo/webdnn: Fastest DNN Execution Framework on Web Browser</a></li>
-</ol>
-
-<h2 id="tutorials">Tutorials</h2>
-
-<h3 id="general-1">General</h3>
-
-<ol>
-  <li><a href="https://www.slideshare.net/anirudhkoul/squeezing-deep-learning-into-mobile-phones">Squeezing Deep Learning Into Mobile Phones</a></li>
-  <li><a href="https://www.dropbox.com/s/p7lvelt0aihrwtl/FPGA%2717%20tutorial%20Song%20Han.pdf?dl=0">Deep Learning – Tutorial and Recent Trends</a></li>
-  <li><a href="http://eyeriss.mit.edu/tutorial.html">Tutorial on Hardware Architectures for Deep Neural Networks</a></li>
-  <li><a href="https://www.slideshare.net/embeddedvision/efficient-convolutional-neural-network-inference-on-mobile-gpus-a-presentation-from-imagination-technologies">Efficient Convolutional Neural Network Inference on Mobile GPUs</a></li>
-</ol>
+    
 
 
 
-<ul class="posts-list">
+<div class="post-tags">
   
+    
+    <a href="/tags.html#academic">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">academic</span>
+    </a>
   
-</ul>
+</div>
+  </div>
+
+  <!-- 
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <p>
+    You are seeing this because your Disqus shortname is not properly set. To
+    configure Disqus, you should edit your <code>_config.yml</code> to include
+    either a <code>disqus.shortname</code> variable.
+  </p>
+
+  <p>
+    If you do not wish to use Disqus, override the
+    <code>comments.html</code> partial for this theme.
+  </p>
+
+  </section>
+ -->
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/blog/dl/2024/07/29/LayerNoramlization.html">
+            Batch and Layer normalization
+            <small>29 Jul 2024</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/musings/2024/05/20/GenAI.html">
+            Generative AI Intro
+            <small>20 May 2024</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/musings/2023/05/09/Academic_works.html">
+            Writing Academic Works
+            <small>09 May 2023</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
 
 </div>
+
 
     </main>
 
