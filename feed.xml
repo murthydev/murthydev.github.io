@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-03T17:13:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Generative AI Intro</title><link href="http://localhost:4000/musings/2024/05/20/GenAI.html" rel="alternate" type="text/html" title="Generative AI Intro" /><published>2024-05-20T00:00:00+02:00</published><updated>2024-05-20T00:00:00+02:00</updated><id>http://localhost:4000/musings/2024/05/20/GenAI</id><content type="html" xml:base="http://localhost:4000/musings/2024/05/20/GenAI.html">&lt;h1 id=&quot;what-is-generative-ai-&quot;&gt;What is Generative AI ?&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-29T15:07:14+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pramod Murthy</title><subtitle>Researcher </subtitle><entry><title type="html">Batch and Layer normalization</title><link href="http://localhost:4000/blog/dl/2024/07/29/LayerNoramlization.html" rel="alternate" type="text/html" title="Batch and Layer normalization" /><published>2024-07-29T00:00:00+02:00</published><updated>2024-07-29T00:00:00+02:00</updated><id>http://localhost:4000/blog/dl/2024/07/29/LayerNoramlization</id><content type="html" xml:base="http://localhost:4000/blog/dl/2024/07/29/LayerNoramlization.html">&lt;p&gt;&lt;strong&gt;Layer Normalization and Group Normalization&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;layer-normalization&quot;&gt;Layer Normalization&lt;/h3&gt;
+
+&lt;p&gt;Layer normalization is a technique used to normalize the activations of a neural network across all channels for each individual observation. This method is particularly useful for stabilizing the learning process and improving the convergence speed of the network. Unlike batch normalization, which normalizes across the batch dimension, layer normalization operates on each observation independently, making it more suitable for recurrent neural networks or scenarios where batch sizes are small.&lt;/p&gt;
+
+&lt;p&gt;In layer normalization, the mean and variance are computed across the features of each observation, and the normalized activations are scaled and shifted using learnable parameters &lt;script type=&quot;math/tex&quot;&gt;\gamma&lt;/script&gt; (scale) and &lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt; (shift). This process ensures that the normalized activations have a mean of zero and a variance of one, which helps in maintaining the stability of the network during training.&lt;/p&gt;
+
+&lt;h3 id=&quot;group-normalization&quot;&gt;Group Normalization&lt;/h3&gt;
+
+&lt;p&gt;Group normalization (GN) is another normalization technique that divides the channels of the input data into groups and normalizes the features within each group independently. This method is designed to address the limitations of batch normalization, especially when the batch size is small. Unlike batch normalization, GN does not rely on the batch dimension and is thus invariant to batch sizes, making it more stable and effective in various training scenarios.&lt;/p&gt;
+
+&lt;p&gt;The process of group normalization involves the following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Grouping Channels&lt;/strong&gt;: The channels of the input data are divided into predefined groups.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Computing Statistics&lt;/strong&gt;: For each group, the mean and variance are computed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Normalization&lt;/strong&gt;: The activations within each group are normalized by subtracting the group mean and dividing by the group standard deviation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scaling and Shifting&lt;/strong&gt;: The normalized activations are then scaled and shifted using learnable parameters &lt;script type=&quot;math/tex&quot;&gt;\gamma&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Group normalization can be seen as a generalization of layer normalization and instance normalization:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Layer Normalization&lt;/strong&gt;: When all channels are grouped together into a single group.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Instance Normalization&lt;/strong&gt;: When each channel is treated as a separate group.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;applications-and-benefits&quot;&gt;Applications and Benefits&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Layer Normalization&lt;/strong&gt;: Often used in recurrent neural networks and transformers, where the independence from batch size is crucial.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Group Normalization&lt;/strong&gt;: Particularly useful in convolutional neural networks (CNNs) when training with small batch sizes, as it provides more stable training and faster convergence compared to batch normalization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;example-of-group-normalization-in-matlab&quot;&gt;Example of Group Normalization in MATLAB&lt;/h3&gt;
+
+&lt;div class=&quot;language-matlab highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;% Create a group normalization layer that normalizes incoming data across three groups of channels&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;layer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;groupNormalizationLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'groupnorm'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;% Example of including a group normalization layer in a layer array&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;layers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;imageInputLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;28&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;28&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;convolution2dLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;groupNormalizationLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;reluLayer&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;maxPooling2dLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Stride'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;fullyConnectedLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;softmaxLayer&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In summary, both layer normalization and group normalization are effective techniques for normalizing activations in neural networks, each with its specific use cases and advantages. Layer normalization is ideal for scenarios where batch size independence is required, while group normalization excels in stabilizing training for CNNs with small batch sizes[1][2].&lt;/p&gt;
+
+&lt;p&gt;Citations:
+[1] https://www.mathworks.com/help/deeplearning/ref/nnet.cnn.layer.groupnormalizationlayer.html
+[2] https://paperswithcode.com/method/group-normalization
+[3] https://www.baeldung.com/cs/group-normalization
+[4] https://towardsdatascience.com/different-normalization-layers-in-deep-learning-1a7214ff71d6?gi=b8778cb8e35c
+[5] https://www.pinecone.io/learn/batch-layer-normalization/
+[6] https://www.linkedin.com/pulse/understanding-batch-normalization-layer-group-implementing-pasha-s
+[7] https://towardsdatascience.com/what-is-group-normalization-45fe27307be7
+[8] https://www.youtube.com/watch?v=1JmZ5idFcVI&lt;/p&gt;</content><author><name></name></author><category term="[&quot;blog&quot;, &quot;DL&quot;]" /><category term="academic" /><summary type="html">Layer Normalization and Group Normalization</summary></entry><entry><title type="html">Generative AI Intro</title><link href="http://localhost:4000/blog/2024/07/29/Attention.html" rel="alternate" type="text/html" title="Generative AI Intro" /><published>2024-07-29T00:00:00+02:00</published><updated>2024-07-29T00:00:00+02:00</updated><id>http://localhost:4000/blog/2024/07/29/Attention</id><content type="html" xml:base="http://localhost:4000/blog/2024/07/29/Attention.html">&lt;h1 id=&quot;what-is-generative-ai-&quot;&gt;What is Generative AI ?&lt;/h1&gt;
+
+&lt;p&gt;Generative AI refers to a class of artificial intelligence models designed to create new content or data that is similar to what they have been trained on. Unlike traditional AI, which primarily focuses on recognizing patterns and making predictions based on existing data, generative AI can produce novel outputs, such as text, images, music, or even code. Here are some key aspects of generative AI:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Types of Generative Models:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Generative Adversarial Networks (GANs):&lt;/strong&gt; These models consist of two neural networks, a generator and a discriminator, which are trained together. The generator creates new data, and the discriminator evaluates its authenticity. Over time, the generator becomes adept at producing realistic data.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Variational Autoencoders (VAEs):&lt;/strong&gt; VAEs learn to encode data into a lower-dimensional space and then decode it back to the original space. They can generate new data by sampling from the learned latent space.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Transformers:&lt;/strong&gt; Widely used in natural language processing, transformers can generate text by predicting the next word or token in a sequence. Models like GPT-3 (Generative Pre-trained Transformer 3) are based on this architecture.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Applications:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Text Generation:&lt;/strong&gt; Models like GPT-3 can write essays, articles, poems, and even code.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Image Generation:&lt;/strong&gt; GANs can create realistic images of people, objects, and scenes. Applications include generating art, designing products, and creating virtual environments.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Music and Audio:&lt;/strong&gt; Generative AI can compose music, create sound effects, and even generate human-like speech.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Game Design:&lt;/strong&gt; AI can generate game levels, characters, and narratives, enhancing the gaming experience.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Challenges:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Quality and Coherence:&lt;/strong&gt; Ensuring the generated content is coherent and of high quality.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ethical Concerns:&lt;/strong&gt; Addressing issues like copyright infringement, the creation of fake news or deepfakes, and potential biases in the generated content.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Computational Resources:&lt;/strong&gt; Training generative models often requires significant computational power and large datasets.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recent Developments:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Multimodal Models:&lt;/strong&gt; Newer generative AI models can handle multiple types of data simultaneously, such as text, images, and audio, leading to more integrated and versatile applications.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Fine-tuning and Customization:&lt;/strong&gt; Techniques for fine-tuning generative models on specific datasets allow for more customized and application-specific outputs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Generative AI is transforming various industries by automating creative processes, enhancing human creativity, and enabling new forms of content creation.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;blog&quot;]" /><category term="academic" /><summary type="html">What is Generative AI ?</summary></entry><entry><title type="html">Generative AI Intro</title><link href="http://localhost:4000/musings/2024/05/20/GenAI.html" rel="alternate" type="text/html" title="Generative AI Intro" /><published>2024-05-20T00:00:00+02:00</published><updated>2024-05-20T00:00:00+02:00</updated><id>http://localhost:4000/musings/2024/05/20/GenAI</id><content type="html" xml:base="http://localhost:4000/musings/2024/05/20/GenAI.html">&lt;h1 id=&quot;what-is-generative-ai-&quot;&gt;What is Generative AI ?&lt;/h1&gt;
 
 &lt;p&gt;Generative AI refers to a class of artificial intelligence models designed to create new content or data that is similar to what they have been trained on. Unlike traditional AI, which primarily focuses on recognizing patterns and making predictions based on existing data, generative AI can produce novel outputs, such as text, images, music, or even code. Here are some key aspects of generative AI:&lt;/p&gt;
 
@@ -441,24 +537,4 @@ Now, this needs spending time with yourself to have really clear priorities for 
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/a/what-is-conservation-of-energy&quot;&gt;What is conservation of energy&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="energy" /><summary type="html">Conservation of Energy</summary></entry><entry><title type="html">Pruning Techniques.</title><link href="http://localhost:4000/pgm/2019/03/11/PruningTechniques.html" rel="alternate" type="text/html" title="Pruning Techniques." /><published>2019-03-11T00:00:00+01:00</published><updated>2019-03-11T00:00:00+01:00</updated><id>http://localhost:4000/pgm/2019/03/11/PruningTechniques</id><content type="html" xml:base="http://localhost:4000/pgm/2019/03/11/PruningTechniques.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
-
-&lt;p&gt;[1] Skeletonization: A Technique for Trimming the Fat from a Network via Relevance Assessment.
-[2] A Simple Procedure for Pruning Back-Propagation Trained Neural Networks.
-[3] Learning Sparse Neural Networks through L_0 Regularization.
-[4] Generalized Dropout.
-[5] Variational Dropout Sparsifies Deep Neural Networks.
-[6] ON THE IMPORTANCE OF SINGLE DIRECTIONS FOR GENERALIZATION
-[7] Ablation of a Robot’s Brain: Neural Networks Under a Knife
-How Important Is a Neuron?
-[8] SNIP: SINGLE-SHOT NETWORK PRUNING BASED ON CONNECTION SENSITIVITY
-[9] How Important Is a Neuron ?&lt;/p&gt;
-
-&lt;p&gt;This is an example citation of Brothman’s 1991 article.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;pgm&quot;]" /><category term="Embedded" /><summary type="html">References:</summary></entry><entry><title type="html">Probabilistic Families</title><link href="http://localhost:4000/pgm/2018/10/10/3ProbabilisticFamilies.html" rel="alternate" type="text/html" title="Probabilistic Families" /><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><id>http://localhost:4000/pgm/2018/10/10/3ProbabilisticFamilies</id><content type="html" xml:base="http://localhost:4000/pgm/2018/10/10/3ProbabilisticFamilies.html">&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
-
-&lt;p&gt;Tale of Three Probabilistic Families&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1810.04261.pdf&quot;&gt;A Tale of Three Probabilistic Families: Discriminative, Descriptive
-and Generative Models&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;pgm&quot;]" /><category term="Generative" /><category term="Discriminative" /><category term="Descriptive" /><category term="PGM" /><summary type="html">References:</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;musings&quot;]" /><category term="energy" /><summary type="html">Conservation of Energy</summary></entry></feed>
